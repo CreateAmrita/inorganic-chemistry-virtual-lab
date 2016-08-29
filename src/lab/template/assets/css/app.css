@@ -1,0 +1,163 @@
+html, body {
+	font-family: 'Roboto', sans-serif !important;
+	font-size: 14px;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+/* Toolbar area */
+#main {
+	background-color: #0f69c3;
+}
+.menu {
+	background-color: transparent;
+	border: none;
+	height: 38px;
+	margin: 16px;
+	width: 36px;
+}
+md-toolbar md-button {
+	width: 100%;
+}
+#main h1 {
+	width: 100%;
+}
+/* Sidenav area */
+md-list .md-button.selected {
+	color: #06F;
+}
+md-sidenav md-list {
+	padding: 0px 0px 8px 0px;
+}
+/* Primary content area */
+#content {
+	overflow: hidden;
+	padding: 40px;
+	margin: 0px auto;
+}
+@media only screen and (min-width: 800px) and (max-width: 1280px) {
+#content {
+	width: 55%;
+}
+}
+#demoCanvas {
+	box-shadow: 0 0 10px #bab9b9;
+	background-color: #fff;
+	border: solid white 7px;
+}
+md-select {
+	margin: -5% 0% -5% 3%
+}
+md-select:not([disabled]):focus .md-select-label {
+	color: #2295F1;
+	font-size: 16px !important;
+}
+#content .md-button.contact {
+	background-color: transparent;
+	border: none;
+	width: 48px;
+	height: 48px;
+	margin: 8px auto 16px 0;
+	position: absolute;
+	top: 10px;
+	right: 40px;
+}
+#content md-icon.avatar {
+	margin-top: 10px;
+}
+.rotate {
+	vertical-align: middle;
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+.rotateCounterwise {
+	vertical-align: middle;
+	-webkit-transform: rotate(0deg);
+	-moz-transform: rotate(10deg);
+	-o-transform: rotate(0deg);
+	-ms-transform: rotate(0deg);
+	transform: rotate(0deg);
+}
+md-button.menuBtn > md-icon {
+	fill: white;
+	width: 24px;
+	height: 24px;
+}
+span md-icon {
+	float: right;
+	height: 50px;
+}
+md-tooltip {
+	background-color: #06F;
+}
+#content img {
+	display: block;
+	height: auto;
+	max-width: 500px;
+}
+md-slider .md-sign .md-thumb-text {
+	text-align: center;
+}
+md-slider {
+	width: 87%;
+	margin: 0% 5% 0% 5%
+}
+}
+/* Utils */
+.content-wrapper {
+	position: relative;
+}
+md-bottom-sheet md-icon {
+	margin-right: 20px;
+}
+.div {
+	margin: 4% 0% 0% 4% !important;
+}
+.toolbarbutton {
+	width: 100% !important;
+	border-radius: 0% !important;
+	padding: 0% 7% 0% 7% !important;
+	margin: 0% !important;
+	line-height: 300% !important;
+	text-align: left !important;
+	font-size: large !important;
+}
+.md-title {
+	font-size: 16px;
+}
+#Copyright {
+	margin: 8px 0px 0px 27%;
+	color: #c8c5c5;
+}
+/*md-sidenav.md-locked-open {
+    min-height: 800px !important;
+}*/
+
+.expTitle {
+	font-size: 25px !important;
+}
+.subTitle {
+	font-size: 16px !important;
+}
+md-tooltip.large .md-content {
+	max-width: 150px;
+	line-height: 60px;
+}
+.selectable {
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+	cursor:default;
+}
+.expTitle{
+    overflow:hidden !important;
+	display:inline-block;
+    white-space: nowrap !important; 
+	 text-overflow:ellipsis;
+}

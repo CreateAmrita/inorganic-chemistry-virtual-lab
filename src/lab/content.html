@@ -1,0 +1,132 @@
+<!-- This file needs to be edited by the lab developer to suit
+their lab rquirements. -->
+<!-- Add class="default" to include any element as it is
+specified in default.html. 
+Do not include class="default" to the elements that you want to
+edit -->
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <title>Optics Virtual Lab</title>
+</head>
+
+<body>
+    <div id="lab">
+        <!-- The Lab Document Container-->
+        <!-- The lab Header contains the logo and the name of the lab, 
+  usually displayed on the top of the page-->
+
+        <header id="lab-header">
+            <div class="logo" id="lab-header-logo">
+            <!-- Enclose the logo image of your lab or write it in 
+      text-->
+            <img src="template/images/amrita_logo.jpg"></div>
+
+            <div class="heading" id="lab-header-heading">
+                <!-- Write the name of your lab and link it to the home page
+    of your lab. -->
+                <a href="index.html">Inorganic Chemistry Virtual Lab</a>
+            </div><!-- Add any additional element or link you want to add to 
+    the lab header, For example : Help (Enclosing them with 
+    suitable div is recommended)-->
+        </header><!-- The lab article is the main content area where all the 
+  experiment content sits-->
+
+        <article id="lab-article">
+            <!-- The lab article has an header, optional navigational 
+    menu, number of sections, an optional sidebar and a closing 
+    footer-->
+
+            <header id="lab-article-header">
+                <!-- You can add a welcome message or title of the 
+      experiment enclosed in h1 tag here -->
+
+                <div class="heading" id="lab-article-heading">
+                   Inorganic Chemistry Virtual Lab
+                </div><!-- Add any additional element if required with proper 
+      enclosing-->
+            </header><!-- Navigation menu is useful to organize the view of 
+    multiple sections inside the article-->
+
+            <nav class="default" id="lab-article-navigation">
+                <!-- The menu will be dynamically generated to contain the 
+      headings of your sections or instead write the menu items 
+      of your choice individually enclosed in <li> tag as shown 
+      below-->
+            </nav><!-- All the sections of your lab or experiment can be 
+    enclosed together with a div element as shown below-->
+
+            <div id="lab-article-sections">
+                <!-- First section of the article-->
+                <section id="lab-article-section-2">
+                    <div class="icon" id="lab-article-section-2-icon">
+                    <!-- Enclose the icon image for the section. -->
+                    <img src="images/simulation.jpg"></div>
+                    <!-- The heading for the section can be enclosed in a 
+        div tag and shown with a <h2> tag -->
+
+                    <div class="heading" id="lab-article-section-2-heading">
+                        List of experiments
+                    </div><!-- Write the section content inside a paragraph 
+        element, You can also include images with <img> tag -->
+
+                    <div class="content" id="lab-article-section-2-content">
+                        <ul id="list-of-experiments">
+                            <li>
+                                <!--Link and name of the experiment 1 -->
+                                <a href="Acid_Base_Titration">Acid Base Titration</a>
+                            </li>
+                            <li>
+                                <!--Link and name of the experiment 2 -->
+                                <a href="Alloy_Analysis_Brass">Alloy Analysis (Brass)</a>
+                            </li>
+                            <li>
+                                <!--Link and name of the experiment 3 -->
+                                <a href="Gravimetric_Estimation_of_Barium">Gravimetric Estimation of Barium</a>
+                            </li>
+                            <li>
+                                <!--Link and name of the experiment 4 -->
+                                <a href="Gravimetric_Estimation_of_Nickel">Gravimetric Estimation of Nickel</a>
+                            </li>
+                            <li>
+                                <!--Link and name of the experiment 5 -->
+                                <a href="Soil_Analysis_Determination_of_pH_of_Soil">Soil Analysis-Determination of pH of Soil</a>
+                            </li>
+                            <li>
+                                <!--Link and name of the experiment 6 -->
+                                <a href="Soil_Analysis_Determination_of_Specific_Conductivity_of_Soil">Soil Analysis-Determination of Specific Conductivity of Soil</a>
+                            </li>
+                            <li>
+                                <!--Link and name of the experiment 7 -->
+                                <a href="Water_Analysis_Determination_of_Chemical_Parameters">Water Analysis-Determination of Chemical Parameters</a>
+                            </li>
+                            <li>
+                                <!--Link and name of the experiment 8 -->
+                                <a href="Water_Analysis_Determination_of_Physical_Parameters">Water Analysis-Determination of Physical Parameters</a>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </div><!-- An article can have a sidebar that contain related 
+      links and additional material (it is optional at this 
+      moment)-->
+
+            <aside class="default" id="lab-article-sidebar">
+                <!-- put the content that you want to appear in the 
+        sidebar-->
+            </aside><!-- Article footer can display related content and 
+      additional links -->
+
+         </article><!-- Links to other labs, about us page can be kept the lab -->
+  
+
+        <footer  class="footer">
+        <!-- Put the content here -->
+        <div style="margin-left:40%; margin-right:40% ">
+        <a href="license/index.html" target="_blank" style="margin:auto"> Licensing Terms </a>
+        </div>
+      </footer> 
+    </div>
+</body>
+</html>

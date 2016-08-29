@@ -1,0 +1,142 @@
+{
+    "lab": {
+        "build_requirements": {
+            "platform": {
+                "arch": "i386", 
+                "build_steps": {
+                    "build": ["make -C ../src"], 
+                    "configure": [], 
+                    "post_build": [], 
+                    "pre_build": [], 
+                    "status": []
+                }, 
+                "installer": [], 
+                "os": "ubuntu", 
+                "osVersion": "12", 
+                "service_pack": ""
+            }
+        }, 
+        "description": {
+            "developer": [
+                {
+                    "contact": {
+                        "alternate_email": "", 
+                        "email": "rathishg@am.amrita.edu", 
+                        "mobile_number": "", 
+                        "office_number": ""
+                    }, 
+                    "department": "CREATE", 
+                    "institute": "Amrita University", 
+                    "name": "Rathish G", 
+                    "organization": "", 
+                    "role": "Project Manager", 
+                    "title": "", 
+                    "web": ""
+                }, 
+				{
+                    "contact": {
+                        "alternate_email": "", 
+                        "email": "sreejithsr@am.amrita.edu", 
+                        "mobile_number": "", 
+                        "office_number": ""
+                    }, 
+                    "department": "CREATE", 
+                    "institute": "Amrita University", 
+                    "name": "Sreejith S R", 
+                    "organization": "", 
+                    "role": "Lab Developer", 
+                    "title": "", 
+                    "web": ""
+                },
+                {
+                    "contact": {
+                        "alternate_email": "", 
+                        "email": "anishasl@am.amrita.edu", 
+                        "mobile_number": "", 
+                        "office_number": ""
+                    }, 
+                    "department": "CREATE", 
+                    "institute": "Amrita University", 
+                    "name": "Anisha S L", 
+                    "organization": "", 
+                    "role": "Lab Developer", 
+                    "title": "", 
+                    "web": ""
+                }, 
+                {
+                    "contact": {
+                        "alternate_email": "", 
+                        "email": "sruthimangala@am.amrita.edu", 
+                        "mobile_number": "", 
+                        "office_number": ""
+                    }, 
+                    "department": "CREATE", 
+                    "institute": "Amrita University", 
+                    "name": "Sruthi Mangala", 
+                    "organization": "", 
+                    "role": "Lab Developer", 
+                    "title": "", 
+                    "web": ""
+                }, 
+                {
+                    "contact": {
+                        "alternate_email": "", 
+                        "email": "anithab@am.amrita.edu", 
+                        "mobile_number": "", 
+                        "office_number": ""
+                    }, 
+                    "department": "CREATE", 
+                    "institute": "Amrita University", 
+                    "name": "Anitha B", 
+                    "organization": "", 
+                    "role": "Lab Developer", 
+                    "title": "", 
+                    "web": ""
+                }
+            ], 
+            "discipline": [
+                "Physical Science"
+            ], 
+            "id": "emm", 
+            "integration_level": 6, 
+            "name": "Electricity & Magnetism Virtual Lab", 
+            "server-side": true, 
+            "status": "Released", 
+            "type": ""
+        }, 
+        "runtime_requirements": {
+            "platform": {
+                "arch": "i386", 
+                "hosting": "dedicated", 
+                "installer": ["sudo apt-get update",
+                "sudo apt-get install -y php5 apache2"], 
+                "lab_actions": {
+                    "backup": [], 
+                    "clean": [], 
+                    "init": ["mv /var/www/index.html index.html.default",
+                        "cp -r ../build/* /var/www/"
+                        ], 
+                    "pause": [], 
+                    "publish": [], 
+                    "restore": [], 
+                    "resume": [], 
+                    "shutdown": ["service apache2 stop"], 
+                    "start": ["service apache2 start"],  
+                    "stats": [], 
+                    "stop": []
+                }, 
+                "memory": {
+                    "max_required": "4gb", 
+                    "min_required": "2gb"
+                }, 
+                "os": "ubuntu", 
+                "osVersion": "12", 
+                "servicepack": "04", 
+                "storage": {
+                    "min_required": "10gb"
+                }
+            }
+        }
+    }, 
+    "template": "1.0"
+}
