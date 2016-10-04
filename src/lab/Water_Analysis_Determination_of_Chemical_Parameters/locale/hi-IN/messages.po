@@ -1,0 +1,675 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: d\n"
+"POT-Creation-Date: 2016-07-08 14:20+0530\n"
+"PO-Revision-Date: 2016-07-30 10:31+0530\n"
+"Last-Translator: \n"
+"Language-Team: d\n"
+"Language: hi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.11\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;gt.gettext\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: experiment.js:278
+msgid "help1"
+msgstr "'चयन परीक्षण' लटकती से परीक्षण का चयन करें।"
+
+#: experiment.js:278
+msgid "help2"
+msgstr ""
+"चयनित परीक्षण कठोरता है, तो 'टाइट्रेट' लटकती का उपयोग कर 'टाइट्रेट का चयन करें।"
+
+#: experiment.js:278
+msgid "help3"
+msgstr ""
+"टाईट्रट की मात्रा, टाईट्रट और टाईट्रट इसी स्लाइडर्स का उपयोग करने का मोलारिटी की "
+"गति समायोजित करें।"
+
+#: experiment.js:278
+msgid "help4"
+msgstr "'आरंभ' बटन पर क्लिक करें प्रयोग शुरू करने के लिए ।"
+
+#: experiment.js:278
+msgid "help5"
+msgstr "टाईट्रट जब तक नीले रंग बदलने मनाया जाता है।"
+
+#: experiment.js:278
+msgid "help6"
+msgstr ""
+"यदि चयनित परीक्षण क्षारीयता है, टाइट्रेट 'टाइट्रेट की मात्रा' स्लाइडर का उपयोग की "
+"मात्रा समायोजित करें।"
+
+#: experiment.js:278
+msgid "help7"
+msgstr "टाईट्रट और टाईट्रट इसी स्लाइडर का उपयोग करने का सामान्य की गति समायोजित करें।"
+
+#: experiment.js:278
+msgid "help8"
+msgstr "प्रारंभ में, फिनोलफथालीन सूचक का चयन करें जब तक समाधान बेरंग हो जाते टाइट्रेट।"
+
+#: experiment.js:278
+msgid "help9"
+msgstr ""
+"प्रयोग रोकने के बाद, मिथाइल ऑरेंज जोड़ सकते हैं और जब तक titrate नारंगी रंग बदलने मनाया "
+"जाता है।"
+
+#: experiment.js:278
+msgid "help10"
+msgstr ""
+"यदि चयनित परीक्षण कॉड, का चयन करें पानी का उपयोग 'पानी का नमूना चुनें' लटकती नमूना है।"
+
+#: experiment.js:278
+msgid "help11"
+msgstr "नमूना पानी डिस्टीलिंग के लिए बटन 'मेंटल पर स्विच' पर क्लिक करें।"
+
+#: experiment.js:278
+msgid "help12"
+msgstr ""
+"30 मिनट के लिए प्रतीक्षा करें और फिर 'शुरू अनुमापन' बटन का उपयोग अनुमापन शुरू करते हैं।"
+
+#: experiment.js:278
+msgid "help13"
+msgstr "'टाईट्रट' लटकती का उपयोग कर टाईट्रट का चयन करें।"
+
+#: experiment.js:278
+msgid "help14"
+msgstr "टाईट्रट और टाईट्रट इसी स्लाइडर का उपयोग करने का सामान्य की गति समायोजित करें।"
+
+#: experiment.js:278
+msgid "help15"
+msgstr "टाइट्रेट जब तक शराब लाल रंग बदलने मनाया जाता है।"
+
+#: experiment.js:278
+msgid "Next"
+msgstr "अगला"
+
+#: experiment.js:278
+msgid "Close"
+msgstr "बंद करे"
+
+#: experiment.js:280
+msgid "Water Analysis : Chemical Content"
+msgstr "जल विश्लेषण : रासायनिक सामग्री"
+
+#: experiment.js:281
+msgid "Variables"
+msgstr "चर"
+
+#: experiment.js:283 experiment.js:345
+msgid "Hardness"
+msgstr "कठोरता"
+
+#: experiment.js:285
+msgid "Select test"
+msgstr "परीक्षण का चयन"
+
+#: experiment.js:287
+msgid "Titrant"
+msgstr "टाईट्रट "
+
+#: experiment.js:289
+msgid "EDTA"
+msgstr "इडीटीए"
+
+#: experiment.js:291
+msgid "Speed of titrant"
+msgstr "टाईट्रट  की स्पीड"
+
+#: experiment.js:293
+msgid "Molarity of titrant"
+msgstr "टाईट्रट  के मोलरिटी "
+
+#: experiment.js:295
+msgid "Titrate"
+msgstr "टाइट्रेट"
+
+#: experiment.js:297 experiment.js:311 experiment.js:365 experiment.js:368
+#: experiment.js:371 experiment.js:374
+msgid "ml"
+msgstr "मिलीलीटर"
+
+#: experiment.js:299
+msgid "Volume of titrate"
+msgstr "टाइट्रेट की मात्रा"
+
+#: experiment.js:301
+msgid "Indicator"
+msgstr "सूचक"
+
+#: experiment.js:303 experiment.js:355
+msgid "Well water"
+msgstr "अच्छा पानी"
+
+#: experiment.js:305
+msgid "Titrant used"
+msgstr "टाईट्रट इस्तेमाल किया"
+
+#: experiment.js:306
+msgid "Titrant used, V1"
+msgstr "टाईट्रट इस्तेमाल किया , V1"
+
+#: experiment.js:307
+msgid "Titrant used, V2"
+msgstr "टाईट्रट इस्तेमाल किया , V1"
+
+#: experiment.js:309
+msgid "Select water sample"
+msgstr "पानी के नमूने का चयन"
+
+#: experiment.js:311 experiment.js:365
+msgid "Blank (20"
+msgstr "खाली (20"
+
+#: experiment.js:313
+msgid "Normality"
+msgstr "साधारण अवस्था"
+
+#: experiment.js:315
+msgid "Ferrous ammonium sulphate"
+msgstr "लौह अमोनियम सल्फेट"
+
+#: experiment.js:317
+msgid "Ferroin"
+msgstr "फेरोइन "
+
+#: experiment.js:319
+msgid "Erichrome Black T"
+msgstr "एरिओक्रोम ब्लैक टी "
+
+#: experiment.js:321 experiment.js:378
+msgid "Phenolphthaline"
+msgstr "फिनोलफथालीन "
+
+#: experiment.js:323
+msgid "HCl"
+msgstr "एचसीएल"
+
+#: experiment.js:325
+msgid "Well water (PH > 10)"
+msgstr "अच्छी तरह से पानी (पीएच > 10 )"
+
+#: experiment.js:327
+msgid "error message"
+msgstr "कृपया फिनोलफथालीन सूचक पहले , मिथाइल नारंगी सूचक द्वारा पीछा किया चयन"
+
+#: experiment.js:329
+msgid "Procedure"
+msgstr "प्रक्रिया"
+
+#: experiment.js:330
+msgid "instruction1"
+msgstr "1. भाटा फ्लास्क में HgSO₄ 0.4ग्राम ।"
+
+#: experiment.js:331
+msgid "instruction2"
+msgstr "2. 20 मिलीलीटर पानी और 10ml पोटेशियम डाइक्रोमेट (0.25 एन ) जोड़ें।"
+
+#: experiment.js:332
+msgid "instruction3"
+msgstr "3. धीरे-धीरे 30मिलीलीटर Ag₂SO₄ युक्त H₂SO₄ जोड़े और तरह से मिला लें।"
+
+#: experiment.js:333
+msgid "instruction4"
+msgstr "4. भाटा 30 मिनट के लिए सामग्री।"
+
+#: experiment.js:334
+msgid "instruction5"
+msgstr ""
+"5. फेरोइन सूचक का उपयोग कर लौह अमोनियम सल्फेट के साथ अतिरिक्त K₂Cr₂O₇ टाइट्रेट ।"
+
+#: experiment.js:336
+msgid "Switch on mantle"
+msgstr "विरासत पर स्विच"
+
+#: experiment.js:337
+msgid "Start titration"
+msgstr "अनुमापन शुरू"
+
+#: experiment.js:338 experiment.js:618
+msgid "Start"
+msgstr "प्रारंभ"
+
+#: experiment.js:339
+#, fuzzy
+msgid "reset"
+msgstr "रीसेट"
+
+#: experiment.js:340
+msgid "Result"
+msgstr "परिणाम"
+
+#: experiment.js:341
+msgid "copyright"
+msgstr "कॉपीराइट © अमृता विश्वविद्यालय 2015 - 2009"
+
+#: experiment.js:348
+msgid "Alkalinity"
+msgstr "क्षारीयता"
+
+#: experiment.js:351
+msgid "COD"
+msgstr "सीओडी"
+
+#: experiment.js:358
+msgid "Tap water"
+msgstr "नल का पानी"
+
+#: experiment.js:361
+msgid "Sea water"
+msgstr "समुद्र का पानी"
+
+#: experiment.js:368
+msgid "Tap water (20"
+msgstr "पानी के नल (20"
+
+#: experiment.js:371
+msgid "Well water (20"
+msgstr "अच्छी तरह से पानी (20"
+
+#: experiment.js:374
+msgid "Domestic waste water (20"
+msgstr "घरेलू अपशिष्ट जल (20"
+
+#: experiment.js:381
+msgid "Methyl orange"
+msgstr "मिथाइल नारंगी"
+
+#: experiment.js:598
+msgid "Stop"
+msgstr "रुकें"
+
+#~ msgid "Coconut oil "
+#~ msgstr "नारियल का तेल"
+
+#~ msgid "Select oil/fat"
+#~ msgstr "तेल प्रवर / वसा"
+
+#~ msgid "Add starch"
+#~ msgstr "स्टार्च जोड़े"
+
+#~ msgid "Refill burette"
+#~ msgstr "रिफिल burette"
+
+#~ msgid "Estimation of Iodine value of fats and oils"
+#~ msgstr "वसा और तेल की आयोडीन मूल्य का आकलन"
+
+#~ msgid "0.1N Sodium thiosulphate"
+#~ msgstr "0.1N सोडियम thiosulphate"
+
+#~ msgid "Test solution"
+#~ msgstr "जांच समाधान"
+
+#~ msgid "Coconut oil"
+#~ msgstr "नारियल का तेल"
+
+#~ msgid "Soya bean oil"
+#~ msgstr "सोयाबीन तेल"
+
+#~ msgid "Sesame oil"
+#~ msgstr "तिल का तेल"
+
+#~ msgid "Olive oil"
+#~ msgstr "जैतून का तेल"
+
+#~ msgid "Mustard oil"
+#~ msgstr "सरसों का तेल"
+
+#~ msgid "EMF Measurements"
+#~ msgstr "EMF माप"
+
+#~ msgid "Lithium"
+#~ msgstr "लिथियम"
+
+#~ msgid "Temperature"
+#~ msgstr "तापमान"
+
+#~ msgid "Cathode "
+#~ msgstr "कैथोड"
+
+#~ msgid "Anode "
+#~ msgstr "एनोड"
+
+#~ msgid "Concentration"
+#~ msgstr "एकाग्रता"
+
+#~ msgid "Potassium"
+#~ msgstr "पोटैशियम"
+
+#~ msgid "Barium"
+#~ msgstr "बेरियम"
+
+#~ msgid "Calcium"
+#~ msgstr "कैल्शियम"
+
+#~ msgid "Sodium"
+#~ msgstr "सोडियम"
+
+#~ msgid "Magnesium"
+#~ msgstr "मैग्नीशियम"
+
+#~ msgid "Aluminium"
+#~ msgstr "अल्युमीनियम"
+
+#~ msgid "Manganese"
+#~ msgstr "मैंगनीज"
+
+#~ msgid "Zinc"
+#~ msgstr "जस्ता"
+
+#~ msgid "Chromium"
+#~ msgstr "क्रोमियम"
+
+#~ msgid "Iron"
+#~ msgstr "लोहा"
+
+#~ msgid "Cadmium"
+#~ msgstr "कैडमियम"
+
+#~ msgid "Thallium"
+#~ msgstr "थालियम"
+
+#~ msgid "Cobalt"
+#~ msgstr "कोबाल्ट"
+
+#~ msgid "Nickel"
+#~ msgstr "निकल"
+
+#~ msgid "Tin"
+#~ msgstr "मानना"
+
+#~ msgid "Lead"
+#~ msgstr "लीड"
+
+#~ msgid "Copper"
+#~ msgstr "तांबा"
+
+#~ msgid "Silver"
+#~ msgstr "चांदी"
+
+#~ msgid "Gold"
+#~ msgstr "सोना"
+
+#~ msgid "Hydrogen"
+#~ msgstr "हाइड्रोजन"
+
+#~ msgid "Error"
+#~ msgstr "एरर"
+
+#~ msgid "Voltage of both heaters must be same."
+#~ msgstr "दोनों के हीटर के वोल्टेज में ही किया जाना चाहिए।"
+
+#~ msgid "Okay"
+#~ msgstr "अच्छा"
+
+#~ msgid "Heat Transfer by Radiation"
+#~ msgstr "विकिरण से हीट ट्रांसफर"
+
+#~ msgid "Choose Material:"
+#~ msgstr "सामग्री का चयन:"
+
+#~ msgid "Diameter of the plates (cm):"
+#~ msgstr "प्लेट (सेमी) का व्यास:"
+
+#~ msgid "Thickness of the plates (cm):"
+#~ msgstr "प्लेट (सेमी) की मोटाई:"
+
+#~ msgid "Chamber temperature (C):"
+#~ msgstr "चैंबर के तापमान (सी):"
+
+#~ msgid "Power On"
+#~ msgstr "पावर पर"
+
+#~ msgid "Emissivity of the test plate:"
+#~ msgstr "परीक्षण थाली का उत्सर्जन:"
+
+#~ msgid "Brass"
+#~ msgstr "पीतल"
+
+#~ msgid "Steel"
+#~ msgstr "स्टील"
+
+#~ msgid "START"
+#~ msgstr "प्रारंभ"
+
+#~ msgid "STOP"
+#~ msgstr "रुकें"
+
+#~ msgid "Temperature (Y axis) Vs Time (X axis)"
+#~ msgstr "तापमान (वाई अक्ष ) बनाम समय ( एक्स अक्ष)"
+
+#~ msgid "Time (in minutes)"
+#~ msgstr "समय ( मिनट में )"
+
+#~ msgid "Start Experiment"
+#~ msgstr "प्रयोग शुरू"
+
+#~ msgid "Thermometer reading:"
+#~ msgstr "थर्मामीटर पढ़ना:"
+
+#~ msgid "Show Graph"
+#~ msgstr "दिखाएँ ग्राफ"
+
+#~ msgid "Water"
+#~ msgstr "पानी"
+
+#~ msgid "Plot Graph"
+#~ msgstr "प्लॉट ग्राफ़"
+
+#~ msgid "Newton's Law of Cooling"
+#~ msgstr "ठंडा करने की न्यूटन का कानून"
+
+#~ msgid "Select liquid:"
+#~ msgstr "चयन करें तरल :"
+
+#~ msgid "Milk"
+#~ msgstr "दूध"
+
+#~ msgid "Stop Heating"
+#~ msgstr "बंद करो ताप"
+
+#~ msgid "Stop Plotting"
+#~ msgstr "बंद करो साजिश रचने"
+
+#~ msgid "Thermometer reading: "
+#~ msgstr "थर्मामीटर पढ़ना:"
+
+#~ msgid "Power on"
+#~ msgstr "പവർ ഓണ്‍ "
+
+#~ msgid "Choose material:"
+#~ msgstr "മെറ്റീരിയൽ തിരഞ്ഞെടുക്കുക:"
+
+#~ msgid "Chamber temperature :"
+#~ msgstr "ചേംബർ താപനില :"
+
+#~ msgid "Show result"
+#~ msgstr "കാണിക്കുക ഫലം"
+
+#~ msgid "Solution Controls"
+#~ msgstr "Solution Controls"
+
+#~ msgid "Enter the readings:"
+#~ msgstr "Enter the readings:"
+
+#~ msgid "Gravitational Mass (in g):"
+#~ msgstr "Gravitational Mass (in g):"
+
+#~ msgid "Mass of Object, m(g):"
+#~ msgstr "Mass of Object, m(g):"
+
+#~ msgid "Volume (in ml):"
+#~ msgstr "Volume (in ml):"
+
+#~ msgid "Density (g/cc):"
+#~ msgstr "Density (g/cc):"
+
+#~ msgid "1cubic centimetre=1ml"
+#~ msgstr "1cubic centimetre=1ml"
+
+#~ msgid "Check"
+#~ msgstr "Check"
+
+#~ msgid "Earth (9.8m/s&#178;)"
+#~ msgstr "Earth (9.8m/s&#178;)"
+
+#~ msgid "Moon (1.6m/s&#178;)"
+#~ msgstr "Moon (1.6m/s&#178;)"
+
+#~ msgid "Mercury (3.7m/s&#178;)"
+#~ msgstr "Mercury (3.7m/s&#178;)"
+
+#~ msgid "Find Mass"
+#~ msgstr "Find Mass"
+
+#~ msgid "Find Volume"
+#~ msgstr "Find Volume"
+
+#~ msgid "Determination of Density of Solid"
+#~ msgstr "Determination of Density of Solid"
+
+#~ msgid "SAVE"
+#~ msgstr "SAVE"
+
+#~ msgid "FULLSCREEN"
+#~ msgstr "FULLSCREEN"
+
+#~ msgid "EXIT"
+#~ msgstr "EXIT"
+
+#~ msgid ""
+#~ "Developed by CDAC Mumbai & Amrita University <br> Under research grant "
+#~ "from department of IT"
+#~ msgstr ""
+#~ "Developed by CDAC Mumbai & Amrita University <br> Under research grant "
+#~ "from department of IT"
+
+#~ msgid ""
+#~ "The mass of the object due to gravity that displayed in the spring balance"
+#~ msgstr ""
+#~ "The mass of the object due to gravity that displayed in the spring balance"
+
+#~ msgid ""
+#~ "The actual mass of the body calculated using the equation, m = "
+#~ "gravitational mass(w) x 9.8 / g(environment)"
+#~ msgstr ""
+#~ "The actual mass of the body calculated using the equation, m = "
+#~ "gravitational mass(w) x 9.8 / g(environment)"
+
+#~ msgid ""
+#~ "Final level of water (with block immersed) - Initial level of water "
+#~ "(without block immersed)"
+#~ msgstr ""
+#~ "Final level of water (with block immersed) - Initial level of water "
+#~ "(without block immersed)"
+
+#~ msgid "Density, D(g/cc) = m/v = mass divided by volume"
+#~ msgstr "Density, D(g/cc) = m/v = mass divided by volume"
+
+#~ msgid "Please enter the values"
+#~ msgstr "Please enter the values"
+
+#~ msgid "Good! Answer is correct"
+#~ msgstr "Good! Answer is correct"
+
+#~ msgid "Try Again!"
+#~ msgstr "Try Again!"
+
+#~ msgid "Cylinder"
+#~ msgstr "Cylinder"
+
+#~ msgid "Lock"
+#~ msgstr "Lock"
+
+#~ msgid "Wood"
+#~ msgstr "Wood"
+
+#~ msgid "Stone"
+#~ msgstr "Stone"
+
+#~ msgid "Bob"
+#~ msgstr "Bob"
+
+#, fuzzy
+#~ msgid "Plants"
+#~ msgstr "Plants"
+
+#, fuzzy
+#~ msgid "Animals"
+#~ msgstr "Animals"
+
+#, fuzzy
+#~ msgid "2 hours"
+#~ msgstr "2 hours"
+
+#, fuzzy
+#~ msgid "Role of Carbon Dioxide During Respiration"
+#~ msgstr "Role of Carbon Dioxide During Respiration"
+
+#, fuzzy
+#~ msgid "Number of grasshoppers:"
+#~ msgstr "Number of grasshoppers:"
+
+#, fuzzy
+#~ msgid "Select the animal:"
+#~ msgstr "Select the animal:"
+
+#, fuzzy
+#~ msgid "Select the indicator:"
+#~ msgstr "Select the indicator:"
+
+#, fuzzy
+#~ msgid "Grasshopper"
+#~ msgstr "Grasshopper"
+
+#, fuzzy
+#~ msgid "Human being"
+#~ msgstr "Human being"
+
+#~ msgid "Click on the information icon to see the inference."
+#~ msgstr "Click on the information icon to see the inference."
+
+#, fuzzy
+#~ msgid "Number of seeds : 10"
+#~ msgstr "Number of seeds : 10"
+
+#, fuzzy
+#~ msgid "Number of seeds : "
+#~ msgstr "Number of seeds : "
+
+#, fuzzy
+#~ msgid "Number of grasshoppers : "
+#~ msgstr "Number of grasshoppers : "
+
+#, fuzzy
+#~ msgid ""
+#~ "Presence of CO<sub>2</sub> in the test tube, turns the blue BTB indicator "
+#~ "to green."
+#~ msgstr ""
+#~ "Presence of CO<sub>2</sub> in the test tube, turns the blue BTB indicator "
+#~ "to green."
+
+#, fuzzy
+#~ msgid "Presence of CO<sub>2</sub> in the test tube, turns limewater milky."
+#~ msgstr "Presence of CO<sub>2</sub> in the test tube, turns limewater milky."
+
+#, fuzzy
+#~ msgid ""
+#~ "Level of water in the delivery tube rises up due to the release of "
+#~ "CO<sub>2</sub> in the conical flask during the respiration of the "
+#~ "grasshoppers."
+#~ msgstr ""
+#~ "Level of water in the delivery tube rises up due to the release of "
+#~ "CO<sub>2</sub> in the conical flask during the respiration of the "
+#~ "grasshoppers."
+
+#, fuzzy
+#~ msgid ""
+#~ "Level of water in the delivery tube rises up due to the release of "
+#~ "CO<sub>2</sub> in the conical flask during the respiration of the seeds."
+#~ msgstr ""
+#~ "Level of water in the delivery tube rises up due to the release of "
+#~ "CO<sub>2</sub> in the conical flask during the respiration of the seeds."

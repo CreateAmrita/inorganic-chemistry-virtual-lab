@@ -24,10 +24,10 @@ function createStopwatch(stage,x,y,interval) {
 	clockContainer=new createjs.Container();
 	clockContainer.name="container";
 	stage.addChild(clockContainer);
-	load_stopwatch_image("bg","../common/images/stopwatch.svg",x,y);
-	load_stopwatch_image("play","../common/images/play.svg",x+100,y+95);
-	load_stopwatch_image("pause","../common/images/stop.svg",x+100,y+95);	
-	load_stopwatch_image("reset","../common/images/reset.svg",x+140,y+95);	
+	load_stopwatch_image("bg","../template/images/stopwatch.svg",x,y);
+	load_stopwatch_image("play","../template/images/play.svg",x+100,y+95);
+	load_stopwatch_image("pause","../template/images/stop.svg",x+100,y+95);	
+	load_stopwatch_image("reset","../template/images/reset.svg",x+140,y+95);	
 	getName("pause").visible=false;
 	setText("stopWatchHr",x+66,y+73);	
 	setText("stopWatchMin",x+100,y+73);

@@ -1,0 +1,17 @@
+md-select {
+    padding: 0px 2px 26px !important;
+}
+#procedure{
+	font-size:17px;
+	font-weight:bold;
+}
+#errorIcon{
+	display: none;
+}
+#solutionTxt{
+	margin-left: 35px;
+    margin-top: -59px;
+}
+img{
+	margin-left: -14px;
+}	

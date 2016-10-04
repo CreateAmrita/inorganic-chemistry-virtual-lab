@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+<title></title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
+<link rel='stylesheet' href='../template/assets/css/fonts.googleapis.css'>
+<link rel="stylesheet" href="../template/bower_components/angular-material/angular-material.css"/>
+<link rel="stylesheet" href="../template/assets/css/app.css"/>
+<link rel="stylesheet" href="css/experiment.css"/>
+<script src="../template/js/createjs-2013.12.12.min.js"></script>
+<script src="../template/bower_components/angular/angular.js"></script>
+<script src="../template/bower_components/angular-animate/angular-animate.js"></script>
+<script src="../template/bower_components/angular-aria/angular-aria.js"></script>
+<script src="../template/bower_components/angular-fullscreen/angular-fullscreen.js"></script>
+<script src="../template/js/Gettext.js"></script>
+<script type="text/javascript" src="../template/bower_components/angular-material/angular-material.js"></script>
+<script src="../template/js/getlanguage.js"></script>
+<script src="./src/user_controller.js"></script>
+<script src="./src/view.js"></script>
+<script src="./src/experiment.js"></script>
+<script type="text/javascript">
+    angular
+    .module('starterApp', ['ngMaterial','users'])
+    .config(function($mdThemingProvider, $mdIconProvider){
+        $mdIconProvider
+            .icon("menu"       , "../template/assets/svg/menu.svg"        , 24)
+            .icon("fullscreen"       , "../template/assets/icons/Icon3.svg", 24)
+            .icon("help"      , "../template/assets/icons/Icon2.svg", 24);
+            $mdThemingProvider.theme('default')
+                .primaryPalette('blue')
+                .accentPalette('red');
+    });
+</script>
+</head>
+
+<body style="background-color: #f2f2f2;" ng-app="starterApp" ng-controller="UserController as ul">
+<md-toolbar class="md-toolbar-tools" id="main">
+    <md-button class="md-icon-button" hide-gt-md ng-click="ul.toggleList()" aria-label="Show User List">
+        <md-icon md-svg-icon="menu" ></md-icon>
+    </md-button>
+    <!-- //Experiment title gives here//   -->
+    <h1 flex="" layout="row" class="expTitle" id="expTitle">{{heading}}</h1>
+    <md-button class="md-icon-button" aria-label="help" ng-click="showActionToast()">
+        <md-icon md-svg-icon="help"></md-icon>
+    </md-button>
+    <md-button class="md-icon-button" aria-label="fullscreen" ng-click="goFullscreen()">
+        <md-icon md-svg-icon="fullscreen"></md-icon>
+    </md-button>
+</md-toolbar>
+<md-content flex layout="row" style="background-color: #f2f2f2;">
+<md-content  id="content" layout="column"  style="background-color: #f2f2f2;" md-swipe-right="toggleSidenav()">    
+  	<canvas id="demoCanvas" width="700" height="700" align="center" layout-fill experiment></canvas>
+		<div id="Copyright">{{copyright}}</div>    
+    </md-content>
+	<md-sidenav class="site-sidenav md-sidenav-left" md-component-id="right" md-is-locked-open="$mdMedia('gt-md')" md-swipe-left="toggleSidenav()">
+        <div>  
+        <md-button id="variables" class="md-raised md-primary toolbarbutton subTitle" ng-click="toggle1()">{{variables}} 
+            <span aria-hidden="true">
+            <md-icon md-svg-src="md-toggle-arrow"  aria-hidden="true" ng-animate="{enter: 'rotate', leave: 'rotateCounterwise'}" ng-class="{true: 'rotate', false: 'rotateCounterwise'}[isActive1]" ></md-icon>
+            </span> 
+        </md-button>
+        <!-- Show variables tab   -->
+        <div ng-hide="showVariables" class="div">
+          
+			<!-- Insert dropdown box1 label -->
+            <md-content id="titrateLabel" class="md-title selectable" layout-padding>{{titrant}}:</md-content>
+            <!-- Insert dropdown box1 -->
+            <md-content class="md-padding selectable">
+				<md-select placeholder="{{initial_titrant}}"  ng-disabled="dropdown_disable" ng-model="titrant_soln" ng-change="selectTitrant();"ng-init="titration_soln='0'" aria-label="rating">
+                    <md-option ng-repeat="x in titrant_Array" value="{{ x.type }}">
+                        {{ x.solution }}
+                    </md-option>
+                </md-select>
+            </md-content>
+			
+			<!-- Insert slider1 label -->
+            <md-content class="md-title selectable" layout-padding>{{drop_speed}} : {{speed}}</md-content>
+            <!-- Insert slider1 -->
+            <div layout>      
+                <md-slider flex md-discrete ng-disabled="drop_slider_disable" ng-model="speed"  step="0.1" min="0.1" max="1" aria-label="rating" ng-change="changeDropSpeed();"></md-slider>        
+            </div>
+			
+			<!-- Insert dropdown box2 label -->
+            <md-content id="selectCathode" class="md-title selectable" layout-padding>{{titrate_label}} :</md-content>
+            <!-- Insert dropdown box2 -->
+			<md-content class="md-padding selectable">
+				<md-select ng-disabled="dropdown_disable" placeholder="{{initial_titrate}}"  ng-model="titrate_soln" ng-change="selectTitrate();" ng-init="test_type='0'" aria-label="rating">
+                    <md-option ng-repeat="x in titrate_Array" value="{{ x.type }}">
+                        {{ x.selected_type }}
+                    </md-option>
+                </md-select>
+            </md-content>
+			
+			<!-- Insert slider2 label -->
+            <md-content class="md-title selectable" layout-padding>{{normality_label}} : {{normality}} {{normality_unit}}</md-content>
+            <!-- Insert slider2 -->
+            <div layout>      
+                <md-slider flex md-discrete ng-disabled="slider_disable" ng-model="normality"  step="0.1" min="0.1" max="2" aria-label="rating"></md-slider>        
+            </div>
+			
+			<!-- Insert slider3 label -->
+            <md-content class="md-title selectable" layout-padding>{{volume_label}} : {{volume}} {{solution_unit}}</md-content>
+            <!-- Insert slider3 -->
+            <div layout>      
+                <md-slider flex md-discrete ng-disabled="slider_disable" ng-model="volume"  step="1" min="10" max="20" aria-label="rating" ng-change="changeVolume();"></md-slider>        
+            </div>
+			
+			<!-- Insert dropdown box3 label -->
+            <md-content id="selectCathode" class="md-title selectable" layout-padding>{{indicator_label}} :</md-content>
+			<!-- Insert dropdown box3 -->
+			<md-content class="md-padding selectable">
+				<md-select ng-disabled="dropdown_disable" placeholder="{{initial_indicator}}"  ng-model="indicator_type" ng-change="selectIndicator();" ng-init="test_type='0'" aria-label="rating">
+                    <md-option ng-repeat="x in indicator_Array" value="{{ x.type }}">
+                        {{ x.selected_type }}
+                    </md-option>
+                </md-select>
+            </md-content>
+			
+			<!-- Insert error message ang error icon -->
+			<md-content class="md-title selectable" layout-padding ng-show="error_display">
+				<md-content id="errorIcon" class="md-title selectable" layout-padding><img src=" ../template/images/wrong_icon.svg" /></md-content>
+				<md-content id="solutionTxt" class="md-title selectable" layout-padding>{{error_message}}</md-content>
+			</md-content>
+			
+			<!-- Insert button1 -->
+			<section layout="row" layout-align="center center">
+				<md-button  class="md-raised" id="startExp"  ng-disabled="start_disable" ng-click="startExp();">{{start_exp}}</md-button>
+			</section>
+			
+			<!-- Insert button2 -->
+			<section layout="row" layout-align="center center">
+				<md-button  class="md-raised" id="reset" ng-click="resetExp();">{{reset_exp}}</md-button>
+			</section>
+			
+			<!-- Result tab -->
+			<md-button id="result" class="md-raised md-primary toolbarbutton subTitle" ng-click="toggle()">{{result}} 
+				<span aria-hidden="true">
+					<md-icon md-svg-src="md-toggle-arrow"   aria-hidden="true" ng-animate="{enter: 'rotate', leave: 'rotateCounterwise'}" ng-class="{true: 'rotate', false: 'rotateCounterwise'}[isActive]" ></md-icon>
+				</span>
+			</md-button>
+			
+			<!-- Insert value for result label -->       
+			<div ng-hide="showValue" class="div"> 
+				<md-content  class="md-title selectable" ng-model="objecta_label" layout-padding id="object_label_rslt">{{titrant_label1}} : {{titrant_used}} {{solution_unit}}</md-content>
+			</div>
+        </div>
+    </div>
+    </md-sidenav>
+</md-content>
+</body>
+<script src="../template/js/loading.js"></script>
+</html>

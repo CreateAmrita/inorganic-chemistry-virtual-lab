@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <link rel='stylesheet' href='../template/assets/css/fonts.googleapis.css'>
+    <link rel="stylesheet" href="../template/bower_components/angular-material/angular-material.css" />
+    <link rel="stylesheet" href="../template/assets/css/app.css" />
+    <link rel="stylesheet" href="css/experiment.css" />
+    <script src="../template/js/createjs-2013.12.12.min.js"></script>
+    <script src="../template/bower_components/angular/angular.js"></script>
+    <script src="../template/bower_components/angular-animate/angular-animate.js"></script>
+    <script src="../template/bower_components/angular-aria/angular-aria.js"></script>
+    <script src="../template/bower_components/angular-chart/angular-charts.min.js"></script>
+    <script src="../template/bower_components/angular-fullscreen/angular-fullscreen.js"></script>
+    <script src="../template/js/Gettext.js"></script>
+    <script type="text/javascript" src="../template/bower_components/angular-material/angular-material.js"></script>
+    <script src="../template/js/getlanguage.js"></script>
+    <script src="./src/user_controller.js"></script>
+    <script src="./src/view.js"></script>
+    <script src="./src/experiment.js"></script>
+    <script type="text/javascript">
+        angular
+            .module('starterApp', ['ngMaterial', 'users'])
+            .config(function($mdThemingProvider, $mdIconProvider) {
+                $mdIconProvider
+                    .icon("menu", "../template/assets/svg/menu.svg", 24)
+                    .icon("fullscreen", "../template/assets/icons/Icon3.svg", 24)
+                    .icon("help", "../template/assets/icons/Icon2.svg", 24);
+                $mdThemingProvider.theme('default')
+                    .primaryPalette('blue')
+                    .accentPalette('red');
+            });
+    </script>
+</head>
+
+<body style="background-color: #f2f2f2;" ng-app="starterApp" ng-controller="UserController as ul">
+    <md-toolbar class="md-toolbar-tools" id="main">
+        <md-button class="md-icon-button" hide-gt-md ng-click="ul.toggleList()" aria-label="Show User List">
+            <md-icon md-svg-icon="menu"></md-icon>
+        </md-button>
+        <!-- //Experiment title gives here//   -->
+        <h1 flex="" layout="row" class="expTitle" id="expTitle">{{heading}}</h1>
+        <md-button class="md-icon-button" aria-label="help" ng-click="showActionToast()">
+            <md-icon md-svg-icon="help"></md-icon>
+        </md-button>
+        <md-button class="md-icon-button" aria-label="fullscreen" ng-click="goFullscreen()">
+            <md-icon md-svg-icon="fullscreen"></md-icon>
+        </md-button>
+    </md-toolbar>
+    <md-content flex layout="row" style="background-color: #f2f2f2;">
+        <md-content id="content" layout="column" style="background-color: #f2f2f2;">
+            <canvas id="demoCanvas" width="700" height="700" align="center" layout-fill experiment></canvas>
+            <div id="Copyright">{{copyright}}</div>
+        </md-content>
+        <md-sidenav class="site-sidenav md-sidenav-left" md-component-id="right" md-is-locked-open="$mdMedia('gt-md')">
+            <div>
+                <md-button id="variables" class="md-raised md-primary toolbarbutton subTitle" ng-click="toggle1()">{{variables}}
+                    <span aria-hidden="true">
+            <md-icon md-svg-src="md-toggle-arrow"  aria-hidden="true" ng-animate="{enter: 'rotate', leave: 'rotateCounterwise'}" ng-class="{true: 'rotate', false: 'rotateCounterwise'}[isActive1]" ></md-icon>
+            </span>
+                </md-button>
+                <!-- ////////////   -->
+                <div ng-hide="showVariables" class="div">
+                    <!-- Dropdown box1 label -->
+                    <md-content id="testLabel" class="md-title selectable" layout-padding>{{test_label}}:</md-content>
+                    <!-- Inserting dropdown box1 -->
+                    <md-content class="md-padding selectable">
+                        <md-select placeholder="{{(test_Array[0]).test}}" ng-disabled="cod_disable" ng-model="test_selected" ng-change="selectTest();" ng-init="test_selected='0'" aria-label="rating">
+                            <md-option ng-repeat="x in test_Array" value="{{ x.type }}">
+                                {{ x.test }}
+                            </md-option>
+                        </md-select>
+                    </md-content>
+					
+                    <md-content class="md-title selectable" layout-padding>
+                        <!-- Dropdown box2 label -->
+                        <md-content id="stdLabel" class="md-title selectable" layout-padding ng-show="standard_show">{{standardisation_label}} :</md-content>
+                        <!-- Inserting dropdown box2 -->
+                        <md-content class="md-padding selectable" ng-show="standard_show">
+                            <md-select ng-disabled="dropdown_disable" placeholder="{{(standardisation_Array[0]).standard}}" ng-model="test_type" ng-change="standardisation();" ng-init="test_type='0'" aria-label="rating">
+                                <md-option ng-repeat="x in standardisation_Array" value="{{ x.type }}">
+                                    {{ x.standard }}
+                                </md-option>
+                            </md-select>
+                        </md-content>
+						
+						<!-- Dropdown box3 label -->
+                        <md-content id="sampleLabel" class="md-title selectable" layout-padding>{{sample_label}} :</md-content>
+                        <!-- Inserting dropdown box3 -->
+                        <md-content class="md-padding selectable">
+                            <md-select ng-disabled="water_sample_disable" placeholder="{{(water_Sample_Array[0]).water_sample}}" ng-model="sample_type" ng-change="selectSample();" ng-init="sample_type='0'" aria-label="rating">
+                                <md-option ng-repeat="x in water_Sample_Array" value="{{ x.type }}">
+                                    {{ x.water_sample }}
+                                </md-option>
+                            </md-select>
+                        </md-content>
+
+                        <!--  Button for standardisation  -->
+                        <section layout="row" layout-align="center center">
+                            <md-button class="md-raised" id="standard" ng-disabled="standard_disable" ng-show="standard_btn_show" ng-click="standardFn();">{{standardisation_label}}</md-button>
+                        </section>
+
+                        <!-- Button Switch on & off   -->
+                        <section layout="row" layout-align="center center">
+                            <md-button class="md-raised" id="startExp" ng-disabled="start_disable" ng-show="start_show" ng-click="startExp();">{{start_exp}}</md-button>
+                        </section>
+
+                        <!-- Button for load sample -->
+                        <section layout="row" layout-align="center center">
+                            <md-button class="md-raised" id="loadSample" ng-disabled="load_disable" ng-show="load_show" ng-click="loadSample();">{{sample_load}}</md-button>
+                        </section>
+
+                        <!-- Button for reset -->
+                        <section layout="row" layout-align="center center">
+                            <md-button class="md-raised" id="reset" ng-click="resetExp();">{{reset_exp}}</md-button>
+                        </section>
+                    </md-content>
+                    <!-- ////////////   -->
+                    <md-button id="result" class="md-raised md-primary toolbarbutton subTitle" ng-click="toggle()">{{result}}
+                        <span aria-hidden="true">
+					<md-icon md-svg-src="md-toggle-arrow"   aria-hidden="true" ng-animate="{enter: 'rotate', leave: 'rotateCounterwise'}" ng-class="{true: 'rotate', false: 'rotateCounterwise'}[isActive]" ></md-icon>
+				</span>
+                    </md-button>
+                    <!-- // Insert value for result label //   -->
+                    <div ng-hide="showValue" class="div">
+                        <md-content class="md-title selectable" layout-padding ng-show="std_show">{{standardisation_label}} : {{standardisation_val}}</md-content>
+                        <md-content class="md-title selectable" layout-padding>{{result_label}} : {{result_val}} {{result_unit}}</md-content>
+                    </div>
+                </div>
+            </div>
+        </md-sidenav>
+    </md-content>
+</body>
+<script src="../template/js/loading.js"></script>
+</html>

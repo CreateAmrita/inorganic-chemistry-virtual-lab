@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <link rel='stylesheet' href='../template/assets/css/fonts.googleapis.css'>
+    <link rel="stylesheet" href="../template/bower_components/angular-material/angular-material.css" />
+    <link rel="stylesheet" href="../template/assets/css/app.css" />
+    <link rel="stylesheet" href="css/experiment.css" />
+    <script src="../template/js/createjs-2013.12.12.min.js"></script>
+    <script src="../template/bower_components/angular/angular.js"></script>
+    <script src="../template/bower_components/angular-animate/angular-animate.js"></script>
+    <script src="../template/bower_components/angular-aria/angular-aria.js"></script>
+    <script src="../template/bower_components/angular-chart/angular-charts.min.js"></script>
+    <script src="../template/bower_components/angular-fullscreen/angular-fullscreen.js"></script>
+    <script src="../template/js/Gettext.js"></script>
+    <script type="text/javascript" src="../template/bower_components/angular-material/angular-material.js"></script>
+    <script src="../template/js/getlanguage.js"></script>
+    <script src="./src/user_controller.js"></script>
+	<script src="./src/view.js"></script>
+    <script src="./src/experiment.js"></script>
+    <script type="text/javascript">
+        angular
+            .module('starterApp', ['ngMaterial', 'users'])
+            .config(function($mdThemingProvider, $mdIconProvider) {
+                $mdIconProvider
+                    .icon("menu", "../template/assets/svg/menu.svg", 24)
+                    .icon("fullscreen", "../template/assets/icons/Icon3.svg", 24)
+                    .icon("help", "../template/assets/icons/Icon2.svg", 24);
+                $mdThemingProvider.theme('default')
+                    .primaryPalette('blue')
+                    .accentPalette('red');
+            });
+    </script>
+</head>
+
+<body style="background-color: #f2f2f2;" ng-app="starterApp" ng-controller="UserController as ul">
+    <md-toolbar class="md-toolbar-tools" id="main">
+        <md-button class="md-icon-button" hide-gt-md ng-click="ul.toggleList()" aria-label="Show User List">
+            <md-icon md-svg-icon="menu"></md-icon>
+        </md-button>
+        <!-- //Experiment title gives here//   -->
+        <h1 flex="" layout="row" class="expTitle" id="expTitle">{{heading}}</h1>
+        <md-button class="md-icon-button" aria-label="help" ng-click="showActionToast()">
+            <md-icon md-svg-icon="help"></md-icon>
+        </md-button>
+        <md-button class="md-icon-button" aria-label="fullscreen" ng-click="goFullscreen()">
+            <md-icon md-svg-icon="fullscreen"></md-icon>
+        </md-button>
+    </md-toolbar>
+    <md-content flex layout="row" style="background-color: #f2f2f2;">
+        <md-content id="content" layout="column" style="background-color: #f2f2f2;">
+            <canvas id="demoCanvas" width="700" height="700" align="center" layout-fill experiment></canvas>
+            <div id="Copyright">{{copyright}}</div>
+        </md-content>
+        <md-sidenav class="site-sidenav md-sidenav-left" md-component-id="right" md-is-locked-open="$mdMedia('gt-md')">
+            <div>
+                <md-button id="variables" class="md-raised md-primary toolbarbutton subTitle" ng-click="toggle1()">{{variables}}
+                    <span aria-hidden="true">
+            <md-icon md-svg-src="md-toggle-arrow"  aria-hidden="true" ng-animate="{enter: 'rotate', leave: 'rotateCounterwise'}" ng-class="{true: 'rotate', false: 'rotateCounterwise'}[isActive1]" ></md-icon>
+            </span>
+                </md-button>
+                <!-- ////////////   -->
+                <div ng-hide="showVariables" class="div">
+                    <!-- Insert dropdown box1 label -->
+                    <md-content id="testLabel" class="md-title selectable" layout-padding>{{test_label}}:</md-content>
+                    <!-- Insert dropdown box1 -->
+                    <md-content class="md-padding selectable">
+                        <md-select placeholder="{{initial_test}}" ng-disabled="cod_disable" ng-model="titration_soln" ng-change="selectTest();" ng-init="titration_soln='0'" aria-label="rating">
+                            <md-option ng-repeat="x in test_Array" value="{{ x.type }}">
+                                {{ x.solution }}
+                            </md-option>
+                        </md-select>
+                    </md-content>
+                    <!--hardness-->
+                    <md-content class="md-title selectable" layout-padding ng-show="hardness_display">
+                        <!-- Insert dropdown box3 label -->
+                        <md-content id="titrateLabel" class="md-title selectable" ng-show="titration_display" layout-padding>{{titrate_label}} :</md-content>
+                        <!-- Insert dropdown box3 -->
+                        <md-content class="md-padding selectable" ng-show="titration_display">
+                            <md-select ng-disabled="dropdown_disable" placeholder="{{initial_titrate}}" ng-model="test_type" ng-show="titration_display" ng-change="selectTitrate();" ng-init="test_type='0'" aria-label="rating">
+                                <md-option ng-repeat="x in titrate_Array" value="{{ x.type }}">
+                                    {{ x.selected_type }}
+                                </md-option>
+                            </md-select>
+                        </md-content>
+
+                        <!-- Insert slider3 -->
+                        <md-content class="md-title selectable" layout-padding>{{volume_label}} : {{volume}}</md-content>
+                        <!-- Insert slider3 -->
+                        <div layout>
+                            <md-slider flex md-discrete ng-disabled="slider_disable" ng-model="volume" step="1" min="10" max="15" aria-label="rating" ng-change="changeVolume();"></md-slider>
+                        </div>
+
+                        <!-- Insert slider1 label -->
+                        <md-content class="md-title selectable" layout-padding>{{drop_speed}} : {{speed}}</md-content>
+                        <!-- Insert slider1 -->
+                        <div layout>
+                            <md-slider flex md-discrete ng-disabled="drop_slider_disable" ng-model="speed" step="0.1" min="0.1" max="1" aria-label="rating" ng-change="changeDropSpeed();"></md-slider>
+                        </div>
+
+                        <!-- Insert slider2 label -->
+                        <md-content class="md-title selectable" layout-padding>{{molarity_label}} : {{molarity}}</md-content>
+                        <!-- Insert slider2 -->
+                        <div layout>
+                            <md-slider flex md-discrete ng-disabled="slider_disable" ng-model="molarity" step="0.01" min="0.01" max="0.1" aria-label="rating" ng-change="changeMolarity();"></md-slider>
+                        </div>
+
+
+                        <!-- // Insert button1 //   -->
+                        <section layout="row" layout-align="center center">
+                            <md-button class="md-raised" id="startExp" ng-disabled="start_disable" ng-click="startExp();">{{start_exp}}</md-button>
+                        </section>
+
+                        <!-- // Insert button2 //   -->
+                        <section layout="row" layout-align="center center">
+                            <md-button class="md-raised" id="reset" ng-click="resetExp();">{{reset_exp}}</md-button>
+                        </section>
+                    </md-content>
+
+                    <!--alkalinity-->
+                    <md-content class="md-title selectable" layout-padding ng-show="alkalinity_display">
+                        <!-- Insert slider3 -->
+                        <md-content class="md-title selectable" layout-padding>{{volume_label}} : {{volume}}</md-content>
+                        <!-- Insert slider3 -->
+                        <div layout>
+                            <md-slider flex md-discrete ng-disabled="slider_disable" ng-model="volume" step="5" min="10" max="30" aria-label="rating" ng-change="changeVolume();"></md-slider>
+                        </div>
+
+                        <!-- Insert slider1 label -->
+                        <md-content class="md-title selectable" layout-padding>{{drop_speed}} : {{speed}}</md-content>
+                        <!-- Insert slider1 -->
+                        <div layout>
+                            <md-slider flex md-discrete ng-disabled="drop_slider_disable" ng-model="speed" step="0.1" min="0.1" max="1" aria-label="rating" ng-change="changeDropSpeed();"></md-slider>
+                        </div>
+
+                        <!-- Insert slider4 label -->
+                        <md-content class="md-title selectable" layout-padding>{{normality_label}} : {{normality}}</md-content>
+                        <!-- Insert slider4 -->
+                        <div layout>
+                            <md-slider flex md-discrete ng-disabled="slider_disable" ng-model="normality" step="0.01" min="0.01" max="0.05" aria-label="rating" ng-change="changeNomality();"></md-slider>
+                        </div>
+                        <!-- Insert error message ang error icon -->
+                        <md-content class="md-title selectable" layout-padding ng-show="error_display">
+                            <md-content id="errorIcon" class="md-title selectable" layout-padding><img src=" ../template/images/wrong_icon.svg" />
+                            </md-content>
+                            <md-content id="solutionTxt" class="md-title selectable" layout-padding>{{error_message}}</md-content>
+                        </md-content>
+                        <!-- Insert dropdown box3 label -->
+                        <md-content id="titrateLabel" class="md-title selectable" layout-padding>{{indicator_label}} :</md-content>
+                        <!-- Insert dropdown box3 -->
+                        <md-content class="md-padding selectable">
+                            <md-select ng-disabled="dropdown_disable" placeholder="{{(indicator_Array[0]).selected_indicator}}" ng-model="indicator_type" ng-change="selectIndicator();" ng-init="indicator_type='0'" aria-label="rating">
+                                <md-option ng-repeat="x in indicator_Array" value="{{ x.type }}">
+                                    {{ x.selected_indicator }}
+                                </md-option>
+                            </md-select>
+                        </md-content>
+                        <!-- // Insert button1 //   -->
+                        <section layout="row" layout-align="center center">
+                            <md-button class="md-raised" id="startExp" ng-disabled="start_disable" ng-click="startExp();">{{start_exp}}</md-button>
+                        </section>
+                        <!-- // Insert button2 //   -->
+                        <section layout="row" layout-align="center center">
+                            <md-button class="md-raised" id="reset" ng-click="resetExp();">{{reset_exp}}</md-button>
+                        </section>
+                    </md-content>
+
+                    <!--cod-->
+                    <md-content class="md-title selectable" layout-padding ng-show="cod_display">
+                        <md-content id="waterSample" class="md-title selectable" layout-padding>{{water_sample_label}} :</md-content>
+                        <!-- Insert dropdown box2 -->
+                        <md-content class="md-padding selectable">
+                            <md-select ng-disabled="dropdown_disable" placeholder="{{initial_water_sample}}" ng-model="water_sample" ng-change="selectWaterSample();" ng-init="test_type='0'" aria-label="rating">
+                                <md-option ng-repeat="x in water_Sample_Array" value="{{ x.type }}">
+                                    {{ x.selected_water }}
+                                </md-option>
+                            </md-select>
+                        </md-content>
+                        <md-content id="procedure" class="md-title selectable" layout-padding>{{procedure}} :</md-content>
+                        <md-content id="instruction1" class="md-title selectable" layout-padding>{{instruction1}}</md-content>
+                        <md-content id="instruction2" class="md-title selectable" layout-padding>{{instruction2}}</md-content>
+                        <md-content id="instruction3" class="md-title selectable" layout-padding>{{instruction3}}</md-content>
+                        <md-content id="instruction4" class="md-title selectable" layout-padding>{{instruction4}}</md-content>
+                        <md-content id="instruction5" class="md-title selectable" layout-padding>{{instruction5}}</md-content>
+
+                        <!-- // Insert button3 //   -->
+                        <section layout="row" layout-align="center center">
+                            <md-button class="md-raised" id="mantle" ng-disabled="mantle_disable" ng-click="switchOnMantle();">{{mantle_label}}</md-button>
+                        </section>
+                        <!-- // Insert button4 //   -->
+                        <section layout="row" layout-align="center center">
+                            <md-button class="md-raised" id="startTitration" ng-show="cod_titration" ng-click="codStartTitration();">{{titration_label}}</md-button>
+                        </section>
+
+                    </md-content>
+                    <!--cod titration-->
+                    <md-content class="md-title selectable" layout-padding ng-show="cod_titration_display">
+                        <md-content id="codTitrant" class="md-title selectable" layout-padding>{{titrant_label}} :</md-content>
+                        <!-- Insert dropdown box2 -->
+                        <md-content class="md-padding selectable">
+                            <md-select ng-disabled="dropdown_disable" placeholder="{{initial_water_sample}}" ng-model="water_type" ng-change="selectWater();" ng-init="test_type='0'" aria-label="rating">
+                                <md-option ng-repeat="x in water_Sample_Array" value="{{ x.type }}">
+                                    {{ x.selected_water }}
+                                </md-option>
+                            </md-select>
+                        </md-content>
+
+                        <!-- Insert slider4 label -->
+                        <md-content class="md-title selectable" layout-padding>{{normality_label}} : {{normality_cod}}</md-content>
+                        <!-- Insert slider4 -->
+                        <div layout>
+                            <md-slider flex md-discrete ng-disabled="slider_disable" ng-model="normality_cod" step="0.1" min="0.1" max="0.8" aria-label="rating" ng-change="changeCodNomality();"></md-slider>
+                        </div>
+
+                        <!-- Insert slider1 label -->
+                        <md-content class="md-title selectable" layout-padding>{{drop_speed}} : {{speed}}</md-content>
+                        <!-- Insert slider1 -->
+                        <div layout>
+                            <md-slider flex md-discrete ng-disabled="drop_slider_disable" ng-model="speed" step="0.1" min="0.1" max="1" aria-label="rating" ng-change="changeDropSpeed();"></md-slider>
+                        </div>
+                        <!-- // Insert button1 //   -->
+                        <section layout="row" layout-align="center center">
+                            <md-button class="md-raised" id="startExp" ng-disabled="start_disable" ng-click="startExp();">{{start_exp}}</md-button>
+                        </section>
+                        <!-- // Insert button2 //   -->
+                        <section layout="row" layout-align="center center">
+                            <md-button class="md-raised" id="reset" ng-click="resetExp();">{{reset_exp}}</md-button>
+                        </section>
+                    </md-content>
+                    <!-- ////////////   -->
+                    <md-button id="result" class="md-raised md-primary toolbarbutton subTitle" ng-show="result_show" ng-click="toggle()">{{result}}
+                        <span aria-hidden="true">
+					<md-icon md-svg-src="md-toggle-arrow"   aria-hidden="true" ng-animate="{enter: 'rotate', leave: 'rotateCounterwise'}" ng-class="{true: 'rotate', false: 'rotateCounterwise'}[isActive]" ></md-icon>
+				</span>
+                    </md-button>
+                    <!-- // Insert value for result label //   -->
+                    <div ng-hide="showValue" class="div">
+                        <md-content class="md-title selectable" layout-padding ng-show="hardness_display">
+                            <!-- Insert label for titrant -->
+                            <md-content class="md-title selectable" layout-padding>{{titrant_label}} : {{titrant_val}}</md-content>
+                            <md-content class="md-title selectable" ng-model="objecta_label" layout-padding id="object_label_rslt">{{titrant_label1}} : {{titrant_used}} {{titrant_unit}}</md-content>
+                            <!-- Insert label for indicator -->
+                            <md-content class="md-title selectable" layout-padding>{{indicator_label}} : {{indicator_hardness}}</md-content>
+                        </md-content>
+
+                        <md-content class="md-title selectable" layout-padding ng-show="alkalinity_display">
+                            <!-- Insert label for titrant -->
+                            <md-content class="md-title selectable" layout-padding>{{titrant_label}} : {{alkalinity_titrant}}</md-content>
+                            <md-content class="md-title selectable" ng-model="object_label_v1" layout-padding id="object_label_rslt_v1">{{titrant_label_v1}} : {{titrant_used_v1}} {{titrant_unit}}</md-content>
+                            <md-content class="md-title selectable" ng-model="object_label_v2" layout-padding id="object_label_rslt_v2" ng-show="alkalinity_v2">{{titrant_label_v2}} : {{titrant_used_v2}} {{titrant_unit}}</md-content>
+                            <md-content class="md-title selectable" layout-padding>{{titrate_label}} : {{titrate_alkalinity}}</md-content>
+                        </md-content>
+
+                        <md-content class="md-title selectable" layout-padding ng-show="cod_titration_display">
+                            <md-content class="md-title selectable" layout-padding>{{titrant_label}} : {{titrant_cod_val}}</md-content>
+                            <md-content class="md-title selectable" ng-model="objecta_label" layout-padding id="object_label_rslt">{{titrant_label1}} : {{titrant_used}} {{titrant_unit}}</md-content>
+                            <!-- Insert label for indicator -->
+                            <md-content class="md-title selectable" layout-padding>{{indicator_label}} : {{indicator_cod}}</md-content>
+                        </md-content>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </md-sidenav>
+    </md-content>
+</body>
+<script src="../template/js/loading.js"></script>
+
+</html>

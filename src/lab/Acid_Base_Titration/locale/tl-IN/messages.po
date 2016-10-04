@@ -1,0 +1,378 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: d\n"
+"POT-Creation-Date: 2015-10-07 14:28+0530\n"
+"PO-Revision-Date: 2015-10-07 14:38+0530\n"
+"Last-Translator: \n"
+"Language-Team: d\n"
+"Language: hi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.2\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;gt.gettext\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: UserController.js:14
+msgid "Error"
+msgstr "பிழை"
+
+#: UserController.js:14 experiment.js:284
+msgid "Voltage of both heaters must be same."
+msgstr "இருவரும் ஹீட்டர்கள் மின்னழுத்த அதே இருக்க வேண்டும்."
+
+#: UserController.js:14
+msgid "Okay"
+msgstr "சரி"
+
+#: experiment.js:270
+msgid "help1"
+msgstr "விட்டம், தடிமன் மற்றும் வெப்பநிலை ஸ்லைடர்களை மாற்ற."
+
+#: experiment.js:270
+msgid "help2"
+msgstr "டி.பி.கஜேந்திரன் மற்றும் BP மின்னழுத்தம் மாற்றவும்"
+
+#: experiment.js:270
+msgid "help3"
+msgstr "கீழிறங்கும் பட்டியலில் பொருட்கள் containis. நாம் அங்கு இருந்து அவர்கள் எந்த தேர்வு செய்யலாம்."
+
+#: experiment.js:270
+msgid "help4"
+msgstr "டி.பி.கஜேந்திரன் மற்றும் BP சுவிட்ச் மாற்ற"
+
+#: experiment.js:270
+msgid "help5"
+msgstr "குறியீட்டு மதிப்பு காட்டி பொத்தான்கள் பயன்படுத்தி மாற்ற முடியும்."
+
+#: experiment.js:270
+msgid "help6"
+msgstr "பொத்தானை பொத்தானை அல்லது மோட்டார் இல் பவர் மீது கிளிக் செய்யவும்."
+
+#: experiment.js:270
+msgid "help7"
+msgstr "காட்டு விளைவாக ദി தட்டு கதிர்வீச்சுத்திறனைக் கொண்டிருக்கிறது."
+
+#: experiment.js:270
+msgid "Next"
+msgstr "அடுத்த"
+
+#: experiment.js:270
+msgid "Close"
+msgstr "நெருக்கமான"
+
+#: experiment.js:271
+msgid "Heat Transfer by Radiation"
+msgstr "கதிர்வீச்சு மூலம் வெப்ப மாற்றம்"
+
+#: experiment.js:272
+msgid "Variables"
+msgstr "மாறிகள்"
+
+#: experiment.js:273
+msgid "Choose Material:"
+msgstr "பொருள் தேர்வு:"
+
+#: experiment.js:274 experiment.js:287
+msgid "Aluminium"
+msgstr "அலுமினியம்"
+
+#: experiment.js:275
+msgid "Diameter of the plates (cm):"
+msgstr "தகடுகள் (செ.மீ) விட்டம்:"
+
+#: experiment.js:276
+msgid "Thickness of the plates (cm):"
+msgstr "தகடுகள் (செ.மீ) தடிமன்:"
+
+#: experiment.js:277
+msgid "Chamber temperature (C):"
+msgstr "அறையின் வெப்பநிலை (சி):"
+
+#: experiment.js:278
+msgid "Show Result"
+msgstr "காட்டு முடிவு"
+
+#: experiment.js:279
+msgid "Power On"
+msgstr "பவர்"
+
+#: experiment.js:280
+msgid "Reset"
+msgstr "மீட்டமை"
+
+#: experiment.js:282
+msgid "Measurements"
+msgstr "அளவீடுகள்"
+
+#: experiment.js:283
+msgid "Emissivity of the test plate:"
+msgstr "சோதனை தட்டு வெளியிடல்:"
+
+#: experiment.js:285
+msgid "copyright"
+msgstr "2009 - 2015 பதிப்புரிமை © அம்ரிதா பல்கலைக்கழகம்"
+
+#: experiment.js:287
+msgid "Brass"
+msgstr "பிராஸ்"
+
+#: experiment.js:287
+msgid "Iron"
+msgstr "இரும்பு"
+
+#: experiment.js:287
+msgid "Steel"
+msgstr "ஸ்டீல்"
+
+#: experiment.js:287
+msgid "Copper"
+msgstr "காப்பர்"
+
+#: experiment.js:387 experiment.js:606
+msgid "START"
+msgstr "ஸ்டார்ட்"
+
+#: experiment.js:575
+msgid "STOP"
+msgstr "ஸ்டா"
+
+#~ msgid "Temperature (Y axis) Vs Time (X axis)"
+#~ msgstr "ఉష్ణోగ్రత (Y అక్షం ) Vs సమయం ( x- యాక్సిస్)"
+
+#~ msgid "Time (in minutes)"
+#~ msgstr "సమయం (నిమిషాలు )"
+
+#~ msgid "Temperature"
+#~ msgstr "ఉష్ణోగ్రత"
+
+#~ msgid "Start Experiment"
+#~ msgstr "పరీక్ష ప్రారంభించవచ్చు"
+
+#~ msgid "Thermometer reading:"
+#~ msgstr "థర్మామీటర్ చదవడానికి:"
+
+#~ msgid "Show Graph"
+#~ msgstr "గ్రాఫ్ను చూపు"
+
+#~ msgid "Water"
+#~ msgstr "నీరు"
+
+#~ msgid "Plot Graph"
+#~ msgstr "ప్లాట్ గ్రాఫ్"
+
+#~ msgid "Newton's Law of Cooling"
+#~ msgstr "శీతలీకరణ న్యూటన్ యొక్క లా"
+
+#~ msgid "Select material:"
+#~ msgstr "ఎంపిక పదార్థం :"
+
+#~ msgid "Select liquid:"
+#~ msgstr "ఎంపిక ద్రవ"
+
+#~ msgid "Silver"
+#~ msgstr "సిల్వర్"
+
+#~ msgid "Milk"
+#~ msgstr "మిల్క్"
+
+#~ msgid "Vegetable oil"
+#~ msgstr "వెజిటబుల్ నూనె"
+
+#~ msgid "Olive oil"
+#~ msgstr "ఆలివ్ నూనె"
+
+#~ msgid "Start Heating"
+#~ msgstr "తాపన మొదలు"
+
+#~ msgid "Stop Heating"
+#~ msgstr "తాపన ఆపడానికి"
+
+#~ msgid "Stop Plotting"
+#~ msgstr "వీరిలో ఆపడానికి"
+
+#~ msgid "Thermometer reading: "
+#~ msgstr "താപമാപിനി വായന:"
+
+#~ msgid "Power on"
+#~ msgstr "പവർ ഓണ്‍ "
+
+#~ msgid "Choose material:"
+#~ msgstr "മെറ്റീരിയൽ തിരഞ്ഞെടുക്കുക:"
+
+#~ msgid "Chamber temperature :"
+#~ msgstr "ചേംബർ താപനില :"
+
+#~ msgid "Show result"
+#~ msgstr "കാണിക്കുക ഫലം"
+
+#~ msgid "Solution Controls"
+#~ msgstr "Solution Controls"
+
+#~ msgid "Select Environment"
+#~ msgstr "Select Environment"
+
+#~ msgid "Select type of test"
+#~ msgstr "Select type of test"
+
+#~ msgid "Enter the readings:"
+#~ msgstr "Enter the readings:"
+
+#~ msgid "Gravitational Mass (in g):"
+#~ msgstr "Gravitational Mass (in g):"
+
+#~ msgid "Mass of Object, m(g):"
+#~ msgstr "Mass of Object, m(g):"
+
+#~ msgid "Volume (in ml):"
+#~ msgstr "Volume (in ml):"
+
+#~ msgid "Density (g/cc):"
+#~ msgstr "Density (g/cc):"
+
+#~ msgid "1cubic centimetre=1ml"
+#~ msgstr "1cubic centimetre=1ml"
+
+#~ msgid "Check"
+#~ msgstr "Check"
+
+#~ msgid "Earth (9.8m/s&#178;)"
+#~ msgstr "Earth (9.8m/s&#178;)"
+
+#~ msgid "Moon (1.6m/s&#178;)"
+#~ msgstr "Moon (1.6m/s&#178;)"
+
+#~ msgid "Mercury (3.7m/s&#178;)"
+#~ msgstr "Mercury (3.7m/s&#178;)"
+
+#~ msgid "Find Mass"
+#~ msgstr "Find Mass"
+
+#~ msgid "Find Volume"
+#~ msgstr "Find Volume"
+
+#~ msgid "Determination of Density of Solid"
+#~ msgstr "Determination of Density of Solid"
+
+#~ msgid "SAVE"
+#~ msgstr "SAVE"
+
+#~ msgid "FULLSCREEN"
+#~ msgstr "FULLSCREEN"
+
+#~ msgid "EXIT"
+#~ msgstr "EXIT"
+
+#~ msgid "Developed by CDAC Mumbai & Amrita University <br> Under research grant from department of IT"
+#~ msgstr "Developed by CDAC Mumbai & Amrita University <br> Under research grant from department of IT"
+
+#~ msgid "The mass of the object due to gravity that displayed in the spring balance"
+#~ msgstr "The mass of the object due to gravity that displayed in the spring balance"
+
+#~ msgid "The actual mass of the body calculated using the equation, m = gravitational mass(w) x 9.8 / g(environment)"
+#~ msgstr "The actual mass of the body calculated using the equation, m = gravitational mass(w) x 9.8 / g(environment)"
+
+#~ msgid "Final level of water (with block immersed) - Initial level of water (without block immersed)"
+#~ msgstr "Final level of water (with block immersed) - Initial level of water (without block immersed)"
+
+#~ msgid "Density, D(g/cc) = m/v = mass divided by volume"
+#~ msgstr "Density, D(g/cc) = m/v = mass divided by volume"
+
+#~ msgid "Please enter the values"
+#~ msgstr "Please enter the values"
+
+#~ msgid "Good! Answer is correct"
+#~ msgstr "Good! Answer is correct"
+
+#~ msgid "Try Again!"
+#~ msgstr "Try Again!"
+
+#~ msgid "Cylinder"
+#~ msgstr "Cylinder"
+
+#~ msgid "Lock"
+#~ msgstr "Lock"
+
+#~ msgid "Wood"
+#~ msgstr "Wood"
+
+#~ msgid "Stone"
+#~ msgstr "Stone"
+
+#~ msgid "Bob"
+#~ msgstr "Bob"
+
+#, fuzzy
+#~ msgid "Plants"
+#~ msgstr "Plants"
+
+#, fuzzy
+#~ msgid "Animals"
+#~ msgstr "Animals"
+
+#, fuzzy
+#~ msgid "2 hours"
+#~ msgstr "2 hours"
+
+#, fuzzy
+#~ msgid "Role of Carbon Dioxide During Respiration"
+#~ msgstr "Role of Carbon Dioxide During Respiration"
+
+#~ msgid "Start"
+#~ msgstr "Start"
+
+#, fuzzy
+#~ msgid "Number of grasshoppers:"
+#~ msgstr "Number of grasshoppers:"
+
+#, fuzzy
+#~ msgid "Select the animal:"
+#~ msgstr "Select the animal:"
+
+#, fuzzy
+#~ msgid "Select the indicator:"
+#~ msgstr "Select the indicator:"
+
+#, fuzzy
+#~ msgid "Grasshopper"
+#~ msgstr "Grasshopper"
+
+#, fuzzy
+#~ msgid "Human being"
+#~ msgstr "Human being"
+
+#, fuzzy
+#~ msgid "Lime water"
+#~ msgstr "Lime water"
+
+#~ msgid "Click on the information icon to see the inference."
+#~ msgstr "Click on the information icon to see the inference."
+
+#, fuzzy
+#~ msgid "Number of seeds : 10"
+#~ msgstr "Number of seeds : 10"
+
+#, fuzzy
+#~ msgid "Number of seeds : "
+#~ msgstr "Number of seeds : "
+
+#, fuzzy
+#~ msgid "Number of grasshoppers : "
+#~ msgstr "Number of grasshoppers : "
+
+#, fuzzy
+#~ msgid "Presence of CO<sub>2</sub> in the test tube, turns the blue BTB indicator to green."
+#~ msgstr "Presence of CO<sub>2</sub> in the test tube, turns the blue BTB indicator to green."
+
+#, fuzzy
+#~ msgid "Presence of CO<sub>2</sub> in the test tube, turns limewater milky."
+#~ msgstr "Presence of CO<sub>2</sub> in the test tube, turns limewater milky."
+
+#, fuzzy
+#~ msgid "Level of water in the delivery tube rises up due to the release of CO<sub>2</sub> in the conical flask during the respiration of the grasshoppers."
+#~ msgstr "Level of water in the delivery tube rises up due to the release of CO<sub>2</sub> in the conical flask during the respiration of the grasshoppers."
+
+#, fuzzy
+#~ msgid "Level of water in the delivery tube rises up due to the release of CO<sub>2</sub> in the conical flask during the respiration of the seeds."
+#~ msgstr "Level of water in the delivery tube rises up due to the release of CO<sub>2</sub> in the conical flask during the respiration of the seeds."

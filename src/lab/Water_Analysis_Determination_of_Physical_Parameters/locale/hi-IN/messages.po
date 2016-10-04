@@ -1,0 +1,735 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: d\n"
+"POT-Creation-Date: 2016-08-09 16:18+0530\n"
+"PO-Revision-Date: 2016-08-11 15:54+0530\n"
+"Last-Translator: \n"
+"Language-Team: d\n"
+"Language: hi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.11\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;gt.gettext\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: view.js:229
+msgid "help1"
+msgstr "' चयन परीक्षण' लटकती का उपयोग कर परीक्षण का चयन करें।"
+
+#: view.js:229
+msgid "help2"
+msgstr ""
+"चयनित परीक्षण 'पानी का पीएच पढ़ने ' है तो ' मानकीकरण ' लटकती का उपयोग कर बफर "
+"समाधान 1 और 2 का चयन करें।"
+
+#: view.js:229
+msgid "help3"
+msgstr ""
+"यदि परीक्षण 'मैलापन' है तो ' मानकीकरण ' बटन पर क्लिक करें formazin का उपयोग कर "
+"उपकरण का मानकीकरण करने के लिए।"
+
+#: view.js:229
+msgid "help4"
+msgstr "' पानी का नमूना चुनें' लटकती का उपयोग कर पानी के नमूने का चयन करें।"
+
+#: view.js:229
+msgid "help5"
+msgstr "बटन ' पर स्विच ' पर क्लिक करें प्रत्येक पानी के नमूने लिए पीएच मान खोजने के लिए।"
+
+#: view.js:229
+msgid "help6"
+msgstr ""
+"यदि परीक्षण 'मैलापन' है तो ' मानकीकरण ' बटन पर क्लिक करें Formaline का उपयोग कर "
+"उपकरण का मानकीकरण करने के लिए।"
+
+#: view.js:229
+msgid "help7"
+msgstr "' पानी का नमूना चुनें' लटकती का उपयोग कर पानी के नमूने का चयन करें।"
+
+#: view.js:229
+msgid "help8"
+msgstr ""
+"नमूना लोड और प्रत्येक नमूना के लिए मैलापन मूल्य खोजने के लिए ' लोड नमूना ' बटन पर क्लिक "
+"करें।"
+
+#: view.js:229
+msgid "help9"
+msgstr ""
+"परीक्षण ' विद्युत चालकता ' है , तो उपकरण का उपयोग कर KCl मानकीकृत करने के लिए ' "
+"मानकीकरण ' बटन पर क्लिक करें।"
+
+#: view.js:229
+msgid "help10"
+msgstr "' पानी का नमूना चुनें' लटकती का उपयोग कर पानी के नमूने का चयन करें।"
+
+#: view.js:229
+msgid "help11"
+msgstr ""
+"बटन ' पर स्विच ' पर क्लिक करें प्रत्येक पानी के नमूने लिए विद्युत चालकता मूल्य खोजने के लिए।"
+
+#: view.js:229
+msgid "help12"
+msgstr "का उपयोग करते हुए 'रीसेट' बटन प्रयोग रीसेट करें।"
+
+#: view.js:229
+msgid "Next"
+msgstr "अगला"
+
+#: view.js:229
+msgid "Close"
+msgstr "बंद करे"
+
+#: view.js:231
+msgid "Water Analysis : Physical Content"
+msgstr "जल विश्लेषण : भौतिक सामग्री"
+
+#: view.js:233
+msgid "Select test"
+msgstr "परीक्षण का चयन"
+
+#: view.js:236
+msgid "Standardisation"
+msgstr "मानकीकरण"
+
+#: view.js:238
+msgid "Select water sample"
+msgstr "पानी के नमूने का चयन"
+
+#: view.js:240
+msgid "Switch On"
+msgstr "खोलना"
+
+#: view.js:242
+msgid "Load Sample"
+msgstr "लोड नमूना"
+
+#: view.js:244
+msgid "pH meter"
+msgstr "पीएच मीटर"
+
+#: view.js:246
+msgid "Nephelometer"
+msgstr "नेफेलोमीटर"
+
+#: view.js:248
+msgid " Conductivity meter"
+msgstr "चालकता मीटर"
+
+#: view.js:250
+#, fuzzy
+msgid "reset"
+msgstr "रीसेट"
+
+#: view.js:252 view.js:398 view.js:806
+msgid "pH value"
+msgstr "पीएच मान"
+
+#: view.js:253
+msgid "Variables"
+msgstr "चर"
+
+#: view.js:254
+msgid "Result"
+msgstr "परिणाम"
+
+#: view.js:255
+msgid "copyright"
+msgstr "कॉपीराइट © अमृता विश्वविद्यालय 2015 - 2009"
+
+#: view.js:260
+msgid "pH reading of water"
+msgstr "पानी का पीएच पढ़ने"
+
+#: view.js:263 view.js:734
+msgid "Turbidity"
+msgstr "मैलापन"
+
+#: view.js:266 view.js:762
+msgid "Electrical conductivity"
+msgstr "विद्युत चालकता"
+
+#: view.js:271
+msgid "Buffer solution1 (4.0 pH)"
+msgstr "बफर समाधान 1 ( 4.0 पीएच)"
+
+#: view.js:274
+msgid "Buffer solution2 (7.0 pH)"
+msgstr "बफर समाधान 2 ( 7.0 पीएच)"
+
+#: view.js:279 view.js:746 view.js:773 view.js:815
+msgid "Select sample"
+msgstr "चुनिंदा नमूना"
+
+#: view.js:282 view.js:788 view.js:818
+msgid "Tap water"
+msgstr "नल का पानी"
+
+#: view.js:285 view.js:821
+msgid "Well water"
+msgstr "अच्छा पानी"
+
+#: view.js:288 view.js:782 view.js:824
+msgid "Distilled water"
+msgstr "आसुत जल"
+
+#: view.js:291 view.js:752 view.js:794 view.js:827
+msgid "Sea water"
+msgstr "समुद्र का पानी"
+
+#: view.js:381 view.js:674 view.js:685
+msgid "Switch on"
+msgstr "खोलना"
+
+#: view.js:456 view.js:472
+msgid "Switch off"
+msgstr "बंद करना"
+
+#: view.js:735
+msgid "NTU"
+msgstr "NTU"
+
+#: view.js:743
+msgid "Formazin suspension(20 NTU)"
+msgstr "निलंबन फोरमज़ीन(20 NTU)"
+
+#: view.js:749
+msgid "Drinking water"
+msgstr "पीने का पानी"
+
+#: view.js:763
+msgid "S/cm"
+msgstr "µसेकंड / सेमी"
+
+#: view.js:770
+msgid "KCI(0.01 M-1412 S/cm)"
+msgstr "KCI ( 0.01 एम -1412 µसेकंड / सेमी)"
+
+#: view.js:776
+msgid "Totally pure water"
+msgstr "पूरी तरह से शुद्ध पानी"
+
+#: view.js:779
+msgid "Typical DI water"
+msgstr "ठेठ डि पानी"
+
+#: view.js:785
+msgid "RO water"
+msgstr "आरओ पानी"
+
+#: view.js:791
+msgid "Potable water (max)"
+msgstr "पीने योग्य पानी ( अधिकतम)"
+
+#: view.js:797
+msgid "Brackish water"
+msgstr "खारा पानी"
+
+#~ msgid "help13"
+#~ msgstr "'टाईट्रट' लटकती का उपयोग कर टाईट्रट का चयन करें।"
+
+#~ msgid "help14"
+#~ msgstr ""
+#~ "टाईट्रट और टाईट्रट इसी स्लाइडर का उपयोग करने का सामान्य की गति समायोजित करें।"
+
+#~ msgid "help15"
+#~ msgstr "टाइट्रेट जब तक शराब लाल रंग बदलने मनाया जाता है।"
+
+#~ msgid "Hardness"
+#~ msgstr "कठोरता"
+
+#~ msgid "Titrant"
+#~ msgstr "टाईट्रट "
+
+#~ msgid "EDTA"
+#~ msgstr "इडीटीए"
+
+#~ msgid "Speed of titrant"
+#~ msgstr "टाईट्रट  की स्पीड"
+
+#~ msgid "Molarity of titrant"
+#~ msgstr "टाईट्रट  के मोलरिटी "
+
+#~ msgid "Titrate"
+#~ msgstr "टाइट्रेट"
+
+#~ msgid "ml"
+#~ msgstr "मिलीलीटर"
+
+#~ msgid "Volume of titrate"
+#~ msgstr "टाइट्रेट की मात्रा"
+
+#~ msgid "Indicator"
+#~ msgstr "सूचक"
+
+#~ msgid "Titrant used"
+#~ msgstr "टाईट्रट इस्तेमाल किया"
+
+#~ msgid "Titrant used, V1"
+#~ msgstr "टाईट्रट इस्तेमाल किया , V1"
+
+#~ msgid "Titrant used, V2"
+#~ msgstr "टाईट्रट इस्तेमाल किया , V1"
+
+#~ msgid "Blank (20"
+#~ msgstr "खाली (20"
+
+#~ msgid "Normality"
+#~ msgstr "साधारण अवस्था"
+
+#~ msgid "Ferrous ammonium sulphate"
+#~ msgstr "लौह अमोनियम सल्फेट"
+
+#~ msgid "Ferroin"
+#~ msgstr "फेरोइन "
+
+#~ msgid "Erichrome Black T"
+#~ msgstr "एरिक्रोम ब्लैक टी "
+
+#~ msgid "Phenolphthaline"
+#~ msgstr "फिनोलफथालीन "
+
+#~ msgid "HCl"
+#~ msgstr "एचसीएल"
+
+#~ msgid "Well water (PH > 10)"
+#~ msgstr "अच्छी तरह से पानी (पीएच > 10 )"
+
+#~ msgid "error message"
+#~ msgstr "कृपया फिनोलफथालीन सूचक पहले , मिथाइल नारंगी सूचक द्वारा पीछा किया चयन"
+
+#~ msgid "Procedure"
+#~ msgstr "प्रक्रिया"
+
+#~ msgid "instruction1"
+#~ msgstr "1. भाटा फ्लास्क में HgSO₄ 0.4g ।"
+
+#~ msgid "instruction2"
+#~ msgstr "2. 20 मिलीलीटर पानी और 10ml पोटेशियम डाइक्रोमेट (0.25 एन ) जोड़ें।"
+
+#~ msgid "instruction3"
+#~ msgstr "3. धीरे-धीरे 30ml Ag₂SO₄ युक्त H₂SO₄ जोड़े और तरह से मिला लें।"
+
+#~ msgid "instruction4"
+#~ msgstr "4. भाटा 30 मिनट के लिए सामग्री।"
+
+#~ msgid "instruction5"
+#~ msgstr ""
+#~ "5. फेरोइन सूचक का उपयोग कर लौह अमोनियम सल्फेट के साथ अतिरिक्त K₂Cr₂O₇ टाइट्रेट ।"
+
+#~ msgid "Start"
+#~ msgstr "प्रारंभ"
+
+#~ msgid "Alkalinity"
+#~ msgstr "क्षारीयता"
+
+#~ msgid "COD"
+#~ msgstr "सीओडी"
+
+#~ msgid "Tap water (20"
+#~ msgstr "पानी के नल (20"
+
+#~ msgid "Well water (20"
+#~ msgstr "अच्छी तरह से पानी (20"
+
+#~ msgid "Domestic waste water (20"
+#~ msgstr "घरेलू अपशिष्ट जल (20"
+
+#~ msgid "Methyl orange"
+#~ msgstr "मिथाइल नारंगी"
+
+#~ msgid "Stop"
+#~ msgstr "रुकें"
+
+#~ msgid "Coconut oil "
+#~ msgstr "नारियल का तेल"
+
+#~ msgid "Select oil/fat"
+#~ msgstr "तेल प्रवर / वसा"
+
+#~ msgid "Add starch"
+#~ msgstr "स्टार्च जोड़े"
+
+#~ msgid "Refill burette"
+#~ msgstr "रिफिल burette"
+
+#~ msgid "Estimation of Iodine value of fats and oils"
+#~ msgstr "वसा और तेल की आयोडीन मूल्य का आकलन"
+
+#~ msgid "0.1N Sodium thiosulphate"
+#~ msgstr "0.1N सोडियम thiosulphate"
+
+#~ msgid "Test solution"
+#~ msgstr "जांच समाधान"
+
+#~ msgid "Coconut oil"
+#~ msgstr "नारियल का तेल"
+
+#~ msgid "Soya bean oil"
+#~ msgstr "सोयाबीन तेल"
+
+#~ msgid "Sesame oil"
+#~ msgstr "तिल का तेल"
+
+#~ msgid "Olive oil"
+#~ msgstr "जैतून का तेल"
+
+#~ msgid "Mustard oil"
+#~ msgstr "सरसों का तेल"
+
+#~ msgid "EMF Measurements"
+#~ msgstr "EMF माप"
+
+#~ msgid "Lithium"
+#~ msgstr "लिथियम"
+
+#~ msgid "Temperature"
+#~ msgstr "तापमान"
+
+#~ msgid "Cathode "
+#~ msgstr "कैथोड"
+
+#~ msgid "Anode "
+#~ msgstr "एनोड"
+
+#~ msgid "Concentration"
+#~ msgstr "एकाग्रता"
+
+#~ msgid "Potassium"
+#~ msgstr "पोटैशियम"
+
+#~ msgid "Barium"
+#~ msgstr "बेरियम"
+
+#~ msgid "Calcium"
+#~ msgstr "कैल्शियम"
+
+#~ msgid "Sodium"
+#~ msgstr "सोडियम"
+
+#~ msgid "Magnesium"
+#~ msgstr "मैग्नीशियम"
+
+#~ msgid "Aluminium"
+#~ msgstr "अल्युमीनियम"
+
+#~ msgid "Manganese"
+#~ msgstr "मैंगनीज"
+
+#~ msgid "Zinc"
+#~ msgstr "जस्ता"
+
+#~ msgid "Chromium"
+#~ msgstr "क्रोमियम"
+
+#~ msgid "Iron"
+#~ msgstr "लोहा"
+
+#~ msgid "Cadmium"
+#~ msgstr "कैडमियम"
+
+#~ msgid "Thallium"
+#~ msgstr "थालियम"
+
+#~ msgid "Cobalt"
+#~ msgstr "कोबाल्ट"
+
+#~ msgid "Nickel"
+#~ msgstr "निकल"
+
+#~ msgid "Tin"
+#~ msgstr "मानना"
+
+#~ msgid "Lead"
+#~ msgstr "लीड"
+
+#~ msgid "Copper"
+#~ msgstr "तांबा"
+
+#~ msgid "Silver"
+#~ msgstr "चांदी"
+
+#~ msgid "Gold"
+#~ msgstr "सोना"
+
+#~ msgid "Hydrogen"
+#~ msgstr "हाइड्रोजन"
+
+#~ msgid "Error"
+#~ msgstr "एरर"
+
+#~ msgid "Voltage of both heaters must be same."
+#~ msgstr "दोनों के हीटर के वोल्टेज में ही किया जाना चाहिए।"
+
+#~ msgid "Okay"
+#~ msgstr "अच्छा"
+
+#~ msgid "Heat Transfer by Radiation"
+#~ msgstr "विकिरण से हीट ट्रांसफर"
+
+#~ msgid "Choose Material:"
+#~ msgstr "सामग्री का चयन:"
+
+#~ msgid "Diameter of the plates (cm):"
+#~ msgstr "प्लेट (सेमी) का व्यास:"
+
+#~ msgid "Thickness of the plates (cm):"
+#~ msgstr "प्लेट (सेमी) की मोटाई:"
+
+#~ msgid "Chamber temperature (C):"
+#~ msgstr "चैंबर के तापमान (सी):"
+
+#~ msgid "Power On"
+#~ msgstr "पावर पर"
+
+#~ msgid "Emissivity of the test plate:"
+#~ msgstr "परीक्षण थाली का उत्सर्जन:"
+
+#~ msgid "Brass"
+#~ msgstr "पीतल"
+
+#~ msgid "Steel"
+#~ msgstr "स्टील"
+
+#~ msgid "START"
+#~ msgstr "प्रारंभ"
+
+#~ msgid "STOP"
+#~ msgstr "रुकें"
+
+#~ msgid "Temperature (Y axis) Vs Time (X axis)"
+#~ msgstr "तापमान (वाई अक्ष ) बनाम समय ( एक्स अक्ष)"
+
+#~ msgid "Time (in minutes)"
+#~ msgstr "समय ( मिनट में )"
+
+#~ msgid "Start Experiment"
+#~ msgstr "प्रयोग शुरू"
+
+#~ msgid "Thermometer reading:"
+#~ msgstr "थर्मामीटर पढ़ना:"
+
+#~ msgid "Show Graph"
+#~ msgstr "दिखाएँ ग्राफ"
+
+#~ msgid "Water"
+#~ msgstr "पानी"
+
+#~ msgid "Plot Graph"
+#~ msgstr "प्लॉट ग्राफ़"
+
+#~ msgid "Newton's Law of Cooling"
+#~ msgstr "ठंडा करने की न्यूटन का कानून"
+
+#~ msgid "Select liquid:"
+#~ msgstr "चयन करें तरल :"
+
+#~ msgid "Milk"
+#~ msgstr "दूध"
+
+#~ msgid "Stop Heating"
+#~ msgstr "बंद करो ताप"
+
+#~ msgid "Stop Plotting"
+#~ msgstr "बंद करो साजिश रचने"
+
+#~ msgid "Thermometer reading: "
+#~ msgstr "थर्मामीटर पढ़ना:"
+
+#~ msgid "Power on"
+#~ msgstr "പവർ ഓണ്‍ "
+
+#~ msgid "Choose material:"
+#~ msgstr "മെറ്റീരിയൽ തിരഞ്ഞെടുക്കുക:"
+
+#~ msgid "Chamber temperature :"
+#~ msgstr "ചേംബർ താപനില :"
+
+#~ msgid "Show result"
+#~ msgstr "കാണിക്കുക ഫലം"
+
+#~ msgid "Solution Controls"
+#~ msgstr "Solution Controls"
+
+#~ msgid "Enter the readings:"
+#~ msgstr "Enter the readings:"
+
+#~ msgid "Gravitational Mass (in g):"
+#~ msgstr "Gravitational Mass (in g):"
+
+#~ msgid "Mass of Object, m(g):"
+#~ msgstr "Mass of Object, m(g):"
+
+#~ msgid "Volume (in ml):"
+#~ msgstr "Volume (in ml):"
+
+#~ msgid "Density (g/cc):"
+#~ msgstr "Density (g/cc):"
+
+#~ msgid "1cubic centimetre=1ml"
+#~ msgstr "1cubic centimetre=1ml"
+
+#~ msgid "Check"
+#~ msgstr "Check"
+
+#~ msgid "Earth (9.8m/s&#178;)"
+#~ msgstr "Earth (9.8m/s&#178;)"
+
+#~ msgid "Moon (1.6m/s&#178;)"
+#~ msgstr "Moon (1.6m/s&#178;)"
+
+#~ msgid "Mercury (3.7m/s&#178;)"
+#~ msgstr "Mercury (3.7m/s&#178;)"
+
+#~ msgid "Find Mass"
+#~ msgstr "Find Mass"
+
+#~ msgid "Find Volume"
+#~ msgstr "Find Volume"
+
+#~ msgid "Determination of Density of Solid"
+#~ msgstr "Determination of Density of Solid"
+
+#~ msgid "SAVE"
+#~ msgstr "SAVE"
+
+#~ msgid "FULLSCREEN"
+#~ msgstr "FULLSCREEN"
+
+#~ msgid "EXIT"
+#~ msgstr "EXIT"
+
+#~ msgid ""
+#~ "Developed by CDAC Mumbai & Amrita University <br> Under research grant "
+#~ "from department of IT"
+#~ msgstr ""
+#~ "Developed by CDAC Mumbai & Amrita University <br> Under research grant "
+#~ "from department of IT"
+
+#~ msgid ""
+#~ "The mass of the object due to gravity that displayed in the spring balance"
+#~ msgstr ""
+#~ "The mass of the object due to gravity that displayed in the spring balance"
+
+#~ msgid ""
+#~ "The actual mass of the body calculated using the equation, m = "
+#~ "gravitational mass(w) x 9.8 / g(environment)"
+#~ msgstr ""
+#~ "The actual mass of the body calculated using the equation, m = "
+#~ "gravitational mass(w) x 9.8 / g(environment)"
+
+#~ msgid ""
+#~ "Final level of water (with block immersed) - Initial level of water "
+#~ "(without block immersed)"
+#~ msgstr ""
+#~ "Final level of water (with block immersed) - Initial level of water "
+#~ "(without block immersed)"
+
+#~ msgid "Density, D(g/cc) = m/v = mass divided by volume"
+#~ msgstr "Density, D(g/cc) = m/v = mass divided by volume"
+
+#~ msgid "Please enter the values"
+#~ msgstr "Please enter the values"
+
+#~ msgid "Good! Answer is correct"
+#~ msgstr "Good! Answer is correct"
+
+#~ msgid "Try Again!"
+#~ msgstr "Try Again!"
+
+#~ msgid "Cylinder"
+#~ msgstr "Cylinder"
+
+#~ msgid "Lock"
+#~ msgstr "Lock"
+
+#~ msgid "Wood"
+#~ msgstr "Wood"
+
+#~ msgid "Stone"
+#~ msgstr "Stone"
+
+#~ msgid "Bob"
+#~ msgstr "Bob"
+
+#, fuzzy
+#~ msgid "Plants"
+#~ msgstr "Plants"
+
+#, fuzzy
+#~ msgid "Animals"
+#~ msgstr "Animals"
+
+#, fuzzy
+#~ msgid "2 hours"
+#~ msgstr "2 hours"
+
+#, fuzzy
+#~ msgid "Role of Carbon Dioxide During Respiration"
+#~ msgstr "Role of Carbon Dioxide During Respiration"
+
+#, fuzzy
+#~ msgid "Number of grasshoppers:"
+#~ msgstr "Number of grasshoppers:"
+
+#, fuzzy
+#~ msgid "Select the animal:"
+#~ msgstr "Select the animal:"
+
+#, fuzzy
+#~ msgid "Select the indicator:"
+#~ msgstr "Select the indicator:"
+
+#, fuzzy
+#~ msgid "Grasshopper"
+#~ msgstr "Grasshopper"
+
+#, fuzzy
+#~ msgid "Human being"
+#~ msgstr "Human being"
+
+#~ msgid "Click on the information icon to see the inference."
+#~ msgstr "Click on the information icon to see the inference."
+
+#, fuzzy
+#~ msgid "Number of seeds : 10"
+#~ msgstr "Number of seeds : 10"
+
+#, fuzzy
+#~ msgid "Number of seeds : "
+#~ msgstr "Number of seeds : "
+
+#, fuzzy
+#~ msgid "Number of grasshoppers : "
+#~ msgstr "Number of grasshoppers : "
+
+#, fuzzy
+#~ msgid ""
+#~ "Presence of CO<sub>2</sub> in the test tube, turns the blue BTB indicator "
+#~ "to green."
+#~ msgstr ""
+#~ "Presence of CO<sub>2</sub> in the test tube, turns the blue BTB indicator "
+#~ "to green."
+
+#, fuzzy
+#~ msgid "Presence of CO<sub>2</sub> in the test tube, turns limewater milky."
+#~ msgstr "Presence of CO<sub>2</sub> in the test tube, turns limewater milky."
+
+#, fuzzy
+#~ msgid ""
+#~ "Level of water in the delivery tube rises up due to the release of "
+#~ "CO<sub>2</sub> in the conical flask during the respiration of the "
+#~ "grasshoppers."
+#~ msgstr ""
+#~ "Level of water in the delivery tube rises up due to the release of "
+#~ "CO<sub>2</sub> in the conical flask during the respiration of the "
+#~ "grasshoppers."
+
+#, fuzzy
+#~ msgid ""
+#~ "Level of water in the delivery tube rises up due to the release of "
+#~ "CO<sub>2</sub> in the conical flask during the respiration of the seeds."
+#~ msgstr ""
+#~ "Level of water in the delivery tube rises up due to the release of "
+#~ "CO<sub>2</sub> in the conical flask during the respiration of the seeds."

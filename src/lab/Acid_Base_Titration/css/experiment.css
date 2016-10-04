@@ -1,0 +1,14 @@
+md-select {
+    padding: 0px 2px 26px !important;
+}
+#solutionIcon {
+	display: inline;
+	margin-left: -3%;
+}
+#solutionTxt {
+	margin-left: 20%;
+    margin-top: -20%;
+}
+#errorIcon{
+	display: none;
+}

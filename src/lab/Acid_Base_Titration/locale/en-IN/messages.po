@@ -1,0 +1,594 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: d\n"
+"POT-Creation-Date: 2016-06-18 09:20+0530\n"
+"PO-Revision-Date: 2016-07-15 16:14+0530\n"
+"Last-Translator: \n"
+"Language-Team: d\n"
+"Language: hi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.11\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;gt.gettext\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: experiment.js:206
+msgid "help1"
+msgstr "Select titrant using 'Titrant' dropdown."
+
+#: experiment.js:206
+msgid "help2"
+msgstr "Adjust speed of the titrant using 'Speed of titrant' slider."
+
+#: experiment.js:206
+msgid "help3"
+msgstr "Select titrate using 'Titrate' dropdown."
+
+#: experiment.js:206
+msgid "help4"
+msgstr "Adjust normality of titrate using 'Normality of titrate' slider."
+
+#: experiment.js:206
+msgid "help5"
+msgstr "Adjust volume of the titrate using 'Volume of titrate' slider."
+
+#: experiment.js:206
+msgid "help6"
+msgstr "Select indicators using 'Indicators' dropdown."
+
+#: experiment.js:206
+msgid "help7"
+msgstr "Click on 'START' button to start the experiment."
+
+#: experiment.js:206
+msgid "help8"
+msgstr "Titrate the solution until a color change is obtained."
+
+#: experiment.js:206
+msgid "help9"
+msgstr "Observe the endpoint."
+
+#: experiment.js:206
+msgid "Next"
+msgstr "Next"
+
+#: experiment.js:206
+msgid "Close"
+msgstr "Close"
+
+#: experiment.js:208
+msgid "Acid Base Titration"
+msgstr "Acid Base Titration"
+
+#: experiment.js:209
+msgid "Variables"
+msgstr "Variables"
+
+#: experiment.js:211 experiment.js:249
+msgid "Hydrochloric acid"
+msgstr "Hydrochloric acid"
+
+#: experiment.js:213
+msgid "Normality of titrate"
+msgstr "Normality of titrate"
+
+#: experiment.js:215
+msgid "Volume of titrate"
+msgstr "Volume of titrate"
+
+#: experiment.js:217
+msgid "Indicators"
+msgstr "Indicators"
+
+#: experiment.js:218
+msgid "Titrate"
+msgstr "Titrate"
+
+#: experiment.js:220
+msgid "0.1N Sodium thiosulphate"
+msgstr "0.1N Sodium thiosulphate"
+
+#: experiment.js:221
+msgid "Titrant"
+msgstr "Titrant"
+
+#: experiment.js:223
+msgid "Sodium hydroxide "
+msgstr "Sodium hydroxide "
+
+#: experiment.js:225
+msgid "Methylorange"
+msgstr "Methyl orange"
+
+#: experiment.js:227
+msgid "Select oil/fat"
+msgstr "Select oil/fat"
+
+#: experiment.js:229
+msgid "Speed of drops"
+msgstr "Speed of titrant"
+
+#: experiment.js:231
+msgid "ml"
+msgstr "ml"
+
+#: experiment.js:234
+msgid "N"
+msgstr "N"
+
+#: experiment.js:236
+msgid "Titrant used"
+msgstr "Titrant used"
+
+#: experiment.js:238
+msgid "Invalid indicator ! Please try again..."
+msgstr "Invalid indicator ! Please try again..."
+
+#: experiment.js:241 experiment.js:464
+msgid "Start"
+msgstr "Start"
+
+#: experiment.js:242
+msgid "Add starch"
+msgstr "Add starch"
+
+#: experiment.js:243
+msgid "Refill burette"
+msgstr "Refill burette"
+
+#: experiment.js:244
+msgid "reset"
+msgstr "reset"
+
+#: experiment.js:245
+msgid "Result"
+msgstr "Result"
+
+#: experiment.js:246
+msgid "copyright"
+msgstr "Copyright © Amrita University 2009 - 2015"
+
+#: experiment.js:252
+msgid "Sulphuric acid"
+msgstr "Sulphuric acid"
+
+#: experiment.js:255
+msgid "Hydrobromic acid"
+msgstr "Hydrobromic acid"
+
+#: experiment.js:258
+msgid "Oxalic acid"
+msgstr "Oxalic acid"
+
+#: experiment.js:261
+msgid "Acetic acid"
+msgstr "Acetic acid"
+
+#: experiment.js:265
+msgid "Sodium hydroxide"
+msgstr "Sodium hydroxide"
+
+#: experiment.js:268
+msgid "Potassium hydroxide"
+msgstr "Potassium hydroxide"
+
+#: experiment.js:271
+msgid "Ammonia"
+msgstr "Ammonia"
+
+#: experiment.js:274
+msgid "Sodium carbonate"
+msgstr "Sodium carbonate"
+
+#: experiment.js:279
+msgid "Methyl orange"
+msgstr "Methyl orange"
+
+#: experiment.js:282
+msgid "Phenolphthalein"
+msgstr "Phenolphthalein"
+
+#: experiment.js:285
+msgid "Methyl red"
+msgstr "Methyl red"
+
+#: experiment.js:444
+msgid "Stop"
+msgstr "Stop"
+
+#~ msgid "Estimation of Iodine value of fats and oils"
+#~ msgstr "Estimation of Iodine value of fats and oils"
+
+#~ msgid "Blank"
+#~ msgstr "Blank"
+
+#~ msgid "Coconut oil "
+#~ msgstr "Coconut oil "
+
+#~ msgid "Test solution"
+#~ msgstr "Test solution"
+
+#~ msgid "Coconut oil"
+#~ msgstr "Coconut oil"
+
+#~ msgid "Soya bean oil"
+#~ msgstr "Soya bean oil"
+
+#~ msgid "Sesame oil"
+#~ msgstr "Sesame oil"
+
+#~ msgid "Olive oil"
+#~ msgstr "Olive oil"
+
+#~ msgid "Mustard oil"
+#~ msgstr "Mustard oil"
+
+#~ msgid "EMF Measurements"
+#~ msgstr "EMF Measurements"
+
+#~ msgid "Lithium"
+#~ msgstr "Lithium"
+
+#~ msgid "Temperature"
+#~ msgstr "Temperature"
+
+#~ msgid "Cathode "
+#~ msgstr "Cathode "
+
+#~ msgid "Anode "
+#~ msgstr "Anode "
+
+#~ msgid "Select Electrode"
+#~ msgstr "Select Electrode"
+
+#~ msgid "Concentration"
+#~ msgstr "Concentration"
+
+#~ msgid "Barium"
+#~ msgstr "Barium"
+
+#~ msgid "Calcium"
+#~ msgstr "Calcium"
+
+#~ msgid "Sodium"
+#~ msgstr "Sodium"
+
+#~ msgid "Magnesium"
+#~ msgstr "Magnesium"
+
+#~ msgid "Aluminium"
+#~ msgstr "Aluminium"
+
+#~ msgid "Manganese"
+#~ msgstr "Manganese"
+
+#~ msgid "Zinc"
+#~ msgstr "Zinc"
+
+#~ msgid "Chromium"
+#~ msgstr "Chromium"
+
+#~ msgid "Iron"
+#~ msgstr "Iron"
+
+#~ msgid "Cadmium"
+#~ msgstr "Cadmium"
+
+#~ msgid "Thallium"
+#~ msgstr "Thallium"
+
+#~ msgid "Cobalt"
+#~ msgstr "Cobalt"
+
+#~ msgid "Nickel"
+#~ msgstr "Nickel"
+
+#~ msgid "Tin"
+#~ msgstr "Tin"
+
+#~ msgid "Lead"
+#~ msgstr "Lead"
+
+#~ msgid "Copper"
+#~ msgstr "Copper"
+
+#~ msgid "Silver"
+#~ msgstr "Silver"
+
+#~ msgid "Gold"
+#~ msgstr "Gold"
+
+#~ msgid "Hydrogen"
+#~ msgstr "Hydrogen"
+
+#, fuzzy
+#~ msgid "Error"
+#~ msgstr "Error"
+
+#~ msgid "Voltage of both heaters must be same."
+#~ msgstr "Voltage of both heaters must be same."
+
+#~ msgid "Okay"
+#~ msgstr "Okay"
+
+#~ msgid "Heat Transfer by Radiation"
+#~ msgstr "Heat Transfer by Radiation"
+
+#~ msgid "Choose Material:"
+#~ msgstr "Choose Material:"
+
+#~ msgid "Diameter of the plates (cm):"
+#~ msgstr "Diameter of the plates (cm):"
+
+#~ msgid "Thickness of the plates (cm):"
+#~ msgstr "Thickness of the plates (cm):"
+
+#~ msgid "Chamber temperature (C):"
+#~ msgstr "Chamber temperature (C):"
+
+#~ msgid "Power On"
+#~ msgstr "Power On"
+
+#~ msgid "Emissivity of the test plate:"
+#~ msgstr "Emissivity of the test plate:"
+
+#~ msgid "Brass"
+#~ msgstr "Brass"
+
+#~ msgid "Steel"
+#~ msgstr "Steel"
+
+#~ msgid "START"
+#~ msgstr "START"
+
+#~ msgid "STOP"
+#~ msgstr "STOP"
+
+#~ msgid "Temperature (Y axis) Vs Time (X axis)"
+#~ msgstr "Temperature (Y axis) Vs Time (X axis)"
+
+#~ msgid "Time (in minutes)"
+#~ msgstr "Time (in minutes)"
+
+#~ msgid "Start Experiment"
+#~ msgstr "Start Experiment"
+
+#~ msgid "Thermometer reading:"
+#~ msgstr "Thermometer reading:"
+
+#~ msgid "Show Graph"
+#~ msgstr "Show Graph"
+
+#~ msgid "Water"
+#~ msgstr "Water"
+
+#~ msgid "Plot Graph"
+#~ msgstr "Plot Graph"
+
+#~ msgid "Newton's Law of Cooling"
+#~ msgstr "Newton's Law of Cooling"
+
+#~ msgid "Select material:"
+#~ msgstr "Select material:"
+
+#~ msgid "Select liquid:"
+#~ msgstr "Select liquid:"
+
+#~ msgid "Milk"
+#~ msgstr "Milk"
+
+#~ msgid "Start Heating"
+#~ msgstr "Start Heating"
+
+#~ msgid "Stop Heating"
+#~ msgstr "Stop Heating"
+
+#~ msgid "Stop Plotting"
+#~ msgstr "Stop Plotting"
+
+#~ msgid "Thermometer reading: "
+#~ msgstr "Thermometer reading:"
+
+#~ msgid "Power on"
+#~ msgstr "Power on"
+
+#~ msgid "Choose material:"
+#~ msgstr "Choose material:"
+
+#~ msgid "Chamber temperature :"
+#~ msgstr "Chamber temperature :"
+
+#~ msgid "Show result"
+#~ msgstr "Show result"
+
+#~ msgid "Solution Controls"
+#~ msgstr "Solution Controls"
+
+#~ msgid "Enter the readings:"
+#~ msgstr "Enter the readings:"
+
+#~ msgid "Gravitational Mass (in g):"
+#~ msgstr "Gravitational Mass (in g):"
+
+#~ msgid "Mass of Object, m(g):"
+#~ msgstr "Mass of Object, m(g):"
+
+#~ msgid "Volume (in ml):"
+#~ msgstr "Volume (in ml):"
+
+#~ msgid "Density (g/cc):"
+#~ msgstr "Density (g/cc):"
+
+#~ msgid "1cubic centimetre=1ml"
+#~ msgstr "1cubic centimetre=1ml"
+
+#~ msgid "Check"
+#~ msgstr "Check"
+
+#~ msgid "Earth (9.8m/s&#178;)"
+#~ msgstr "Earth (9.8m/s&#178;)"
+
+#~ msgid "Moon (1.6m/s&#178;)"
+#~ msgstr "Moon (1.6m/s&#178;)"
+
+#~ msgid "Mercury (3.7m/s&#178;)"
+#~ msgstr "Mercury (3.7m/s&#178;)"
+
+#~ msgid "Find Mass"
+#~ msgstr "Find Mass"
+
+#~ msgid "Find Volume"
+#~ msgstr "Find Volume"
+
+#~ msgid "Determination of Density of Solid"
+#~ msgstr "Determination of Density of Solid"
+
+#~ msgid "SAVE"
+#~ msgstr "SAVE"
+
+#~ msgid "FULLSCREEN"
+#~ msgstr "FULLSCREEN"
+
+#~ msgid "EXIT"
+#~ msgstr "EXIT"
+
+#~ msgid ""
+#~ "Developed by CDAC Mumbai & Amrita University <br> Under research grant "
+#~ "from department of IT"
+#~ msgstr ""
+#~ "Developed by CDAC Mumbai & Amrita University <br> Under research grant "
+#~ "from department of IT"
+
+#~ msgid ""
+#~ "The mass of the object due to gravity that displayed in the spring balance"
+#~ msgstr ""
+#~ "The mass of the object due to gravity that displayed in the spring balance"
+
+#~ msgid ""
+#~ "The actual mass of the body calculated using the equation, m = "
+#~ "gravitational mass(w) x 9.8 / g(environment)"
+#~ msgstr ""
+#~ "The actual mass of the body calculated using the equation, m = "
+#~ "gravitational mass(w) x 9.8 / g(environment)"
+
+#~ msgid ""
+#~ "Final level of water (with block immersed) - Initial level of water "
+#~ "(without block immersed)"
+#~ msgstr ""
+#~ "Final level of water (with block immersed) - Initial level of water "
+#~ "(without block immersed)"
+
+#~ msgid "Density, D(g/cc) = m/v = mass divided by volume"
+#~ msgstr "Density, D(g/cc) = m/v = mass divided by volume"
+
+#~ msgid "Please enter the values"
+#~ msgstr "Please enter the values"
+
+#~ msgid "Good! Answer is correct"
+#~ msgstr "Good! Answer is correct"
+
+#~ msgid "Try Again!"
+#~ msgstr "Try Again!"
+
+#~ msgid "Cylinder"
+#~ msgstr "Cylinder"
+
+#~ msgid "Lock"
+#~ msgstr "Lock"
+
+#~ msgid "Wood"
+#~ msgstr "Wood"
+
+#~ msgid "Stone"
+#~ msgstr "Stone"
+
+#~ msgid "Bob"
+#~ msgstr "Bob"
+
+#, fuzzy
+#~ msgid "Plants"
+#~ msgstr "Plants"
+
+#, fuzzy
+#~ msgid "Animals"
+#~ msgstr "Animals"
+
+#, fuzzy
+#~ msgid "2 hours"
+#~ msgstr "2 hours"
+
+#, fuzzy
+#~ msgid "Role of Carbon Dioxide During Respiration"
+#~ msgstr "Role of Carbon Dioxide During Respiration"
+
+#, fuzzy
+#~ msgid "Number of grasshoppers:"
+#~ msgstr "Number of grasshoppers:"
+
+#, fuzzy
+#~ msgid "Select the animal:"
+#~ msgstr "Select the animal:"
+
+#, fuzzy
+#~ msgid "Select the indicator:"
+#~ msgstr "Select the indicator:"
+
+#, fuzzy
+#~ msgid "Grasshopper"
+#~ msgstr "Grasshopper"
+
+#, fuzzy
+#~ msgid "Human being"
+#~ msgstr "Human being"
+
+#, fuzzy
+#~ msgid "Lime water"
+#~ msgstr "Lime water"
+
+#~ msgid "Click on the information icon to see the inference."
+#~ msgstr "Click on the information icon to see the inference."
+
+#, fuzzy
+#~ msgid "Number of seeds : 10"
+#~ msgstr "Number of seeds : 10"
+
+#, fuzzy
+#~ msgid "Number of seeds : "
+#~ msgstr "Number of seeds : "
+
+#, fuzzy
+#~ msgid "Number of grasshoppers : "
+#~ msgstr "Number of grasshoppers : "
+
+#, fuzzy
+#~ msgid ""
+#~ "Presence of CO<sub>2</sub> in the test tube, turns the blue BTB indicator "
+#~ "to green."
+#~ msgstr ""
+#~ "Presence of CO<sub>2</sub> in the test tube, turns the blue BTB indicator "
+#~ "to green."
+
+#, fuzzy
+#~ msgid "Presence of CO<sub>2</sub> in the test tube, turns limewater milky."
+#~ msgstr "Presence of CO<sub>2</sub> in the test tube, turns limewater milky."
+
+#, fuzzy
+#~ msgid ""
+#~ "Level of water in the delivery tube rises up due to the release of "
+#~ "CO<sub>2</sub> in the conical flask during the respiration of the "
+#~ "grasshoppers."
+#~ msgstr ""
+#~ "Level of water in the delivery tube rises up due to the release of "
+#~ "CO<sub>2</sub> in the conical flask during the respiration of the "
+#~ "grasshoppers."
+
+#, fuzzy
+#~ msgid ""
+#~ "Level of water in the delivery tube rises up due to the release of "
+#~ "CO<sub>2</sub> in the conical flask during the respiration of the seeds."
+#~ msgstr ""
+#~ "Level of water in the delivery tube rises up due to the release of "
+#~ "CO<sub>2</sub> in the conical flask during the respiration of the seeds."
