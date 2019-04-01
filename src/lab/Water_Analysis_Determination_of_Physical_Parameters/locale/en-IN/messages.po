@@ -22,7 +22,7 @@ msgstr "Select test using 'Select test' dropdown. "
 #: view.js:229
 msgid "help2"
 msgstr ""
-"If the selected test is 'pH reading of water' then select buffer solution 1 "
+"If the selected test is 'pH reading of Water' then select buffer Solution 1 "
 "& 2 using 'Standardisation' dropdown."
 
 #: view.js:229
@@ -33,12 +33,12 @@ msgstr ""
 
 #: view.js:229
 msgid "help4"
-msgstr "Select water sample using 'Select water sample' dropdown."
+msgstr "Select Water sample using 'Select Water sample' dropdown."
 
 #: view.js:229
 msgid "help5"
 msgstr ""
-"Click on 'SWITCH ON' button to find the pH value for each water sample."
+"Click on 'SWITCH ON' button to find the pH value for each Water sample."
 
 #: view.js:229
 msgid "help6"
@@ -48,7 +48,7 @@ msgstr ""
 
 #: view.js:229
 msgid "help7"
-msgstr "Select  water sample using 'Select water sample' dropdown."
+msgstr "Select  Water sample using 'Select Water sample' dropdown."
 
 #: view.js:229
 msgid "help8"
@@ -64,13 +64,13 @@ msgstr ""
 
 #: view.js:229
 msgid "help10"
-msgstr "Select water sample using 'Select water sample' dropdown."
+msgstr "Select Water sample using 'Select Water sample' dropdown."
 
 #: view.js:229
 msgid "help11"
 msgstr ""
 "Click on 'SWITCH ON' button to find the electrical conductivity value for "
-"each water sample."
+"each Water sample."
 
 #: view.js:229
 msgid "help12"
@@ -97,8 +97,8 @@ msgid "Standardisation"
 msgstr "Standardisation"
 
 #: view.js:238
-msgid "Select water sample"
-msgstr "Select water sample"
+msgid "Select Water sample"
+msgstr "Select Water sample"
 
 #: view.js:240
 msgid "Switch On"
@@ -138,12 +138,12 @@ msgid "Result"
 msgstr "Result"
 
 #: view.js:255
-msgid "copyright"
+msgid "Copyright"
 msgstr "Copyright © Amrita University 2009 - 2015"
 
 #: view.js:260
-msgid "pH reading of water"
-msgstr "pH reading of water"
+msgid "pH reading of Water"
+msgstr "pH reading of Water"
 
 #: view.js:263 view.js:734
 msgid "Turbidity"
@@ -166,20 +166,20 @@ msgid "Select sample"
 msgstr "Select sample"
 
 #: view.js:282 view.js:788 view.js:818
-msgid "Tap water"
-msgstr "Tap water"
+msgid "Tap Water"
+msgstr "Tap Water"
 
 #: view.js:285 view.js:821
-msgid "Well water"
-msgstr "Well water"
+msgid "Well Water"
+msgstr "Well Water"
 
 #: view.js:288 view.js:782 view.js:824
-msgid "Distilled water"
-msgstr "Distilled water"
+msgid "Distilled Water"
+msgstr "Distilled Water"
 
 #: view.js:291 view.js:752 view.js:794 view.js:827
-msgid "Sea water"
-msgstr "Sea water"
+msgid "Sea Water"
+msgstr "Sea Water"
 
 #: view.js:381 view.js:674 view.js:685
 msgid "Switch on"
@@ -198,8 +198,8 @@ msgid "Formazin suspension(20 NTU)"
 msgstr "Formazin suspension(20 NTU)"
 
 #: view.js:749
-msgid "Drinking water"
-msgstr "Drinking water"
+msgid "Drinking Water"
+msgstr "Drinking Water"
 
 #: view.js:763
 msgid "S/cm"
@@ -210,24 +210,24 @@ msgid "KCI(0.01 M-1412 S/cm)"
 msgstr "KCI(0.01 M-1412 µS/cm)"
 
 #: view.js:776
-msgid "Totally pure water"
-msgstr "Totally pure water"
+msgid "Totally pure Water"
+msgstr "Totally pure Water"
 
 #: view.js:779
-msgid "Typical DI water"
-msgstr "Typical DI water"
+msgid "Typical DI Water"
+msgstr "Typical DI Water"
 
 #: view.js:785
-msgid "RO water"
-msgstr "RO water"
+msgid "RO Water"
+msgstr "RO Water"
 
 #: view.js:791
-msgid "Potable water (max)"
-msgstr "Potable water (max)"
+msgid "Potable Water (max)"
+msgstr "Potable Water (max)"
 
 #: view.js:797
-msgid "Brackish water"
-msgstr "Brackish water"
+msgid "Brackish Water"
+msgstr "Brackish Water"
 
 #~ msgid "help13"
 #~ msgstr "Select titrant using 'Titrant' dropdown."
@@ -297,8 +297,8 @@ msgstr "Brackish water"
 #~ msgid "HCl"
 #~ msgstr "HCl"
 
-#~ msgid "Well water (PH > 10)"
-#~ msgstr "Well water (PH > 10)"
+#~ msgid "Well Water (PH > 10)"
+#~ msgstr "Well Water (PH > 10)"
 
 #~ msgid "error message"
 #~ msgstr ""
@@ -312,7 +312,7 @@ msgstr "Brackish water"
 #~ msgstr "1. Place 0.4g HgSO₄ in the reflux flask."
 
 #~ msgid "instruction2"
-#~ msgstr "2. Add 20ml water & 10ml potassium dichromate(0.25 N)."
+#~ msgstr "2. Add 20ml Water & 10ml potassium dichromate(0.25 N)."
 
 #~ msgid "instruction3"
 #~ msgstr "3. Add slowly 30ml H₂SO₄ containing Ag₂SO₄ & mix throughly."
@@ -334,14 +334,14 @@ msgstr "Brackish water"
 #~ msgid "COD"
 #~ msgstr "COD"
 
-#~ msgid "Tap water (20"
-#~ msgstr "Tap water (20"
+#~ msgid "Tap Water (20"
+#~ msgstr "Tap Water (20"
 
-#~ msgid "Well water (20"
-#~ msgstr "Well water (20"
+#~ msgid "Well Water (20"
+#~ msgstr "Well Water (20"
 
-#~ msgid "Domestic waste water (20"
-#~ msgstr "Domestic waste water (20"
+#~ msgid "Domestic waste Water (20"
+#~ msgstr "Domestic waste Water (20"
 
 #~ msgid "Methyl orange"
 #~ msgstr "Methyl orange"
@@ -367,8 +367,8 @@ msgstr "Brackish water"
 #~ msgid "0.1N Sodium thiosulphate"
 #~ msgstr "0.1N Sodium thiosulphate"
 
-#~ msgid "Test solution"
-#~ msgstr "Test solution"
+#~ msgid "Test Solution"
+#~ msgstr "Test Solution"
 
 #~ msgid "Coconut oil"
 #~ msgstr "Coconut oil"
@@ -628,10 +628,10 @@ msgstr "Brackish water"
 #~ "gravitational mass(w) x 9.8 / g(environment)"
 
 #~ msgid ""
-#~ "Final level of water (with block immersed) - Initial level of water "
+#~ "Final level of Water (with block immersed) - Initial level of Water "
 #~ "(without block immersed)"
 #~ msgstr ""
-#~ "Final level of water (with block immersed) - Initial level of water "
+#~ "Final level of Water (with block immersed) - Initial level of Water "
 #~ "(without block immersed)"
 
 #~ msgid "Density, D(g/cc) = m/v = mass divided by volume"
@@ -726,18 +726,18 @@ msgstr "Brackish water"
 
 #, fuzzy
 #~ msgid ""
-#~ "Level of water in the delivery tube rises up due to the release of "
+#~ "Level of Water in the delivery tube rises up due to the release of "
 #~ "CO<sub>2</sub> in the conical flask during the respiration of the "
 #~ "grasshoppers."
 #~ msgstr ""
-#~ "Level of water in the delivery tube rises up due to the release of "
+#~ "Level of Water in the delivery tube rises up due to the release of "
 #~ "CO<sub>2</sub> in the conical flask during the respiration of the "
 #~ "grasshoppers."
 
 #, fuzzy
 #~ msgid ""
-#~ "Level of water in the delivery tube rises up due to the release of "
+#~ "Level of Water in the delivery tube rises up due to the release of "
 #~ "CO<sub>2</sub> in the conical flask during the respiration of the seeds."
 #~ msgstr ""
-#~ "Level of water in the delivery tube rises up due to the release of "
+#~ "Level of Water in the delivery tube rises up due to the release of "
 #~ "CO<sub>2</sub> in the conical flask during the respiration of the seeds."
